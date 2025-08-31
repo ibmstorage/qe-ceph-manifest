@@ -1,0 +1,9 @@
+---
+nightly:
+  version: 19.2.3-290.g4eb0aec
+  repositories:
+    centos-9: https://1.chacra.ceph.com/repos/ceph/squid/4e6b0aec049d1b03752a214efe224f33e0120a56/centos/9/flavors/default/repo
+  images:
+    ceph-base: quay.ceph.io/ceph-ci/ceph:4e6b0aec049d1b03752a214efe224f33e0120a56
+    nvmeof: quay.io/ceph/nvmeof:1.1.0
+    nvmeof-cli: quay.io/ceph/nvmeof-cli:1.1.0
