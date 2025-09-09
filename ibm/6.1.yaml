@@ -1,0 +1,48 @@
+---
+nightly:
+  version: 17.2.6-277
+  repositories:
+    rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202408072349.ci.0/IBM-CEPH-6.1-202408072349.ci.0-rhel8.repo
+    rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202504190219.ci.0/IBM-CEPH-6.1-202504190219.ci.0-rhel9.repo
+  images:
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-45
+    haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-50
+    keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-48
+    grafana_image: cp.icr.io/cp/ibm-ceph/ceph-6-dashboard-rhel9:6-112
+    loki_image: cp.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
+    alertmanager_image: cp.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.12.0-202503181728.p0.g914cad8.assembly.stream.el8
+    node_exporter_image: cp.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.12.0-202503181728.p0.g99077a3.assembly.stream.el8
+    prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202503181728.p0.g72ceaef.assembly.stream.el8
+    snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-98
+
+stable:
+  version: 17.2.6-277
+  repositories:
+    rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202408072349.ci.0/IBM-CEPH-6.1-202408072349.ci.0-rhel8.repo
+    rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202504190219.ci.0/IBM-CEPH-6.1-202504190219.ci.0-rhel9.repo
+  images:
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-45
+    haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-50
+    keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-48
+    grafana_image: cp.icr.io/cp/ibm-ceph/ceph-6-dashboard-rhel9:6-112
+    loki_image: cp.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
+    alertmanager_image: cp.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.12.0-202503181728.p0.g914cad8.assembly.stream.el8
+    node_exporter_image: cp.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.12.0-202503181728.p0.g99077a3.assembly.stream.el8
+    prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202503181728.p0.g72ceaef.assembly.stream.el8
+    snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-98
+
+released:
+  version: 17.2.6-277
+  repositories:
+    rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202408072349.ci.0/IBM-CEPH-6.1-202408072349.ci.0-rhel8.repo
+    rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202504190219.ci.0/IBM-CEPH-6.1-202504190219.ci.0-rhel9.repo
+  images:
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-45
+    haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-50
+    keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-48
+    grafana_image: cp.icr.io/cp/ibm-ceph/ceph-6-dashboard-rhel9:6-112
+    loki_image: cp.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
+    alertmanager_image: cp.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.12.0-202503181728.p0.g914cad8.assembly.stream.el8
+    node_exporter_image: cp.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.12.0-202503181728.p0.g99077a3.assembly.stream.el8
+    prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202503181728.p0.g72ceaef.assembly.stream.el8
+    snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-98
