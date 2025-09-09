@@ -1,0 +1,105 @@
+---
+nightly:
+  version: 19.2.0-139
+  repositories:
+    rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.0-RHEL-9-20250604.0/RHCEPH-8.0-RHEL-9-20250604.0.repo
+  images:
+    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:8-483
+    grafana_image: registry-proxy.engineering.redhat.com/rh-osbs/grafana:10.4.8-58
+    haproxy_image: registry-proxy.engineering.redhat.com/rh-osbs/haproxy:2.4.22-62
+    keepalived_image: registry-proxy.engineering.redhat.com/rh-osbs/keepalived:2.2.8-60
+    oauth2_proxy_image: registry-proxy.engineering.redhat.com/rh-osbs/oauth2-proxy:v7.6.0-23
+    promtail_image: registry-proxy.engineering.redhat.com/rh-osbs/promtail:v3.0.0-29
+    snmp_gateway_image: registry-proxy.engineering.redhat.com/rh-osbs/snmp-notifier:1.2.1-110
+
+stable:
+  version: 19.2.0-139
+  repositories:
+    rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.0-RHEL-9-20250604.0/RHCEPH-8.0-RHEL-9-20250604.0.repo
+  images:
+    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:8-483
+    grafana_image: registry-proxy.engineering.redhat.com/rh-osbs/grafana:10.4.8-58
+    haproxy_image: registry-proxy.engineering.redhat.com/rh-osbs/haproxy:2.4.22-62
+    keepalived_image: registry-proxy.engineering.redhat.com/rh-osbs/keepalived:2.2.8-60
+    oauth2_proxy_image: registry-proxy.engineering.redhat.com/rh-osbs/oauth2-proxy:v7.6.0-23
+    promtail_image: registry-proxy.engineering.redhat.com/rh-osbs/promtail:v3.0.0-29
+    snmp_gateway_image: registry-proxy.engineering.redhat.com/rh-osbs/snmp-notifier:1.2.1-110
+
+released:
+  version: 19.2.0-139
+  images:
+    ceph-base: registry.redhat.io/rh-osbs/rhceph:8-483
+    grafana_image: registry.redhat.io/rh-osbs/grafana:10.4.8-58
+    haproxy_image: registry.redhat.io/rh-osbs/haproxy:2.4.22-62
+    keepalived_image: registry.redhat.io/rh-osbs/keepalived:2.2.8-60
+    oauth2_proxy_image: registry.redhat.io/rh-osbs/oauth2-proxy:v7.6.0-23
+    promtail_image: registry.redhat.io/rh-osbs/promtail:v3.0.0-29
+    snmp_gateway_image: registry.redhat.io/rh-osbs/snmp-notifier:1.2.1-110
+
+z5:
+  version: 19.2.0-139
+  images:
+    ceph-base: registry.redhat.io/rh-osbs/rhceph:8-483
+    grafana_image: registry.redhat.io/rh-osbs/grafana:10.4.8-58
+    haproxy_image: registry.redhat.io/rh-osbs/haproxy:2.4.22-62
+    keepalived_image: registry.redhat.io/rh-osbs/keepalived:2.2.8-60
+    oauth2_proxy_image: registry.redhat.io/rh-osbs/oauth2-proxy:v7.6.0-23
+    promtail_image: registry.redhat.io/rh-osbs/promtail:v3.0.0-29
+    snmp_gateway_image: registry.redhat.io/rh-osbs/snmp-notifier:1.2.1-110
+
+z4:
+  version: 19.2.0-137
+  images:
+    ceph-base: registry.redhat.io/rh-osbs/rhceph:8-462
+    grafana_image: registry.redhat.io/rh-osbs/grafana:10.4.8-53
+    haproxy_image: registry.redhat.io/rh-osbs/haproxy:2.4.22-58
+    keepalived_image: registry.redhat.io/rh-osbs/keepalived:2.2.8-56
+    oauth2_proxy_image: registry.redhat.io/rh-osbs/oauth2-proxy:v7.6.0-19
+    promtail_image: registry.redhat.io/rh-osbs/promtail:v3.0.0-25
+    snmp_gateway_image: registry.redhat.io/rh-osbs/snmp-notifier:1.2.1-106
+
+z3:
+  version: 19.2.0-124
+  images:
+    ceph-base: registry.redhat.io/rh-osbs/rhceph:8-355
+    grafana_image: registry.redhat.io/rh-osbs/grafana:10.4.8-30
+    haproxy_image: registry.redhat.io/rh-osbs/haproxy:2.4.22-48
+    keepalived_image: registry.redhat.io/rh-osbs/keepalived:2.2.8-46
+    snmp_gateway_image: registry.redhat.io/rh-osbs/snmp-notifier:1.2.1-97
+    promtail_image: registry.redhat.io/rh-osbs/promtail:v3.0.0-19
+    oauth2_proxy_image: registry.redhat.io/rh-osbs/oauth2-proxy:v7.6.0-13
+
+z2:
+  version: 19.2.0-98
+  images:
+    ceph-base: registry.redhat.io/rh-osbs/rhceph:8-261
+    grafana_image: registry.redhat.io/rh-osbs/grafana:10.4.8-27
+    haproxy_image: registry.redhat.io/rh-osbs/haproxy:2.4.22-45
+    keepalived_image: registry.redhat.io/rh-osbs/keepalived:2.2.8-43
+    snmp_gateway_image: registry.redhat.io/rh-osbs/snmp-notifier:1.2.1-94
+    promtail_image: registry.redhat.io/rh-osbs/promtail:v3.0.0-16
+    oauth2_proxy_image: registry.redhat.io/rh-osbs/oauth2-proxy:v7.6.0-10
+
+z1:
+  version: 19.2.0-55
+  images:
+    ceph-base: registry.redhat.io/rh-osbs/rhceph:8-212
+    grafana_image: registry.redhat.io/rh-osbs/grafana:10.4.8-6
+    haproxy_image: registry.redhat.io/rh-osbs/haproxy:2.4.22-38
+    keepalived_image: registry.redhat.io/rh-osbs/keepalived:2.2.8-36
+    snmp_gateway_image: registry.redhat.io/rh-osbs/snmp-notifier:1.2.1-86
+    promtail_image: registry.redhat.io/rh-osbs/promtail:v3.0.0-9
+    oauth2_proxy_image: registry.redhat.io/rh-osbs/oauth2-proxy:v7.6.0-6
+
+z0:
+  version: 19.2.0-53
+  images:
+    ceph-base: registry.redhat.io/rh-osbs/rhceph:8-208
+    grafana_image: registry.redhat.io/rh-osbs/grafana:10.4.8-4
+    haproxy_image: registry.redhat.io/rh-osbs/haproxy:2.4.22-35
+    keepalived_image: registry.redhat.io/rh-osbs/keepalived:2.2.8-33
+    snmp_gateway_image: registry.redhat.io/rh-osbs/snmp-notifier:1.2.1-83
+    promtail_image: registry.redhat.io/rh-osbs/promtail:v3.0.0-6
+    oauth2_proxy_image: registry.redhat.io/rh-osbs/oauth2-proxy:v7.6.0-4
+    nvmeof_image: registry.redhat.io/rh-osbs/ceph-nvmeof:1.3.3-6
+    nvmeof_cli_image: registry.redhat.io/rh-osbs/ceph-nvmeof-cli:1.3.3-1
