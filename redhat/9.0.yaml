@@ -1,11 +1,22 @@
 nightly:
-  version: 20.1.0-18
+  version: 20.1.0-25
   repositories:
-    rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20250923.ci.0
+    rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20250926.ci.1
   images:
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:5c39602e0198018d08401b35cd88685a3e8816fd338015588190d39f72d2fd16
-    alloy_image: quay.io/rhceph-ci/alloy@sha256:7f49a7fed075082ea5ae2ca8ab03fd0dbf677f454304320b344f7c06acb33c4a
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:4f43100107aee2287e97d5ee9969236b0d06bb6552bc2da7dffd7b145fbdb42b
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:f3455193b50dd20b6d5783a3a2d115e411943eed6538b8392a713ffa83c2fa85
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:ff0d99f74815e9dbe6ee27346c7be1736efba5b9b2ced9b3d70fcdf517989380
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:cda73c26fbdb39ae20a796ca8fcd85b6b679c4db567d474212f08c61ba9aac05
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:83caa955187f672c81d27ce4ddcec5e1a2e8ff604ccc4d3a4f64d35d1d36c5e3
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:d7273e12d7a3087e4fb8b965dd1db3b6449e1e7a1a3dabfb7b2f24964223a6c3
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:6b88af866f349070690863f7095c809955186bdf94cf10881e6b9db25f1839d7
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:01bc601569b6981d0ce84c94b0ba469ff95e834e74d3c976a3adffa635ebb8f1
+
+stable:
+  version: 20.1.0-25
+  repositories:
+    rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20250926.ci.1
+  images:
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:cda73c26fbdb39ae20a796ca8fcd85b6b679c4db567d474212f08c61ba9aac05
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:83caa955187f672c81d27ce4ddcec5e1a2e8ff604ccc4d3a4f64d35d1d36c5e3
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:d7273e12d7a3087e4fb8b965dd1db3b6449e1e7a1a3dabfb7b2f24964223a6c3
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:6b88af866f349070690863f7095c809955186bdf94cf10881e6b9db25f1839d7
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:01bc601569b6981d0ce84c94b0ba469ff95e834e74d3c976a3adffa635ebb8f1
+
