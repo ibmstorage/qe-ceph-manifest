@@ -1,7 +1,8 @@
 nightly:
   version: 20.1.0-25
   repositories:
-    rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20250926.ci.1
+    default:
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20250926.ci.1
   images:
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:34954df3460e29698b0e9c78ad00d339694c2529f07c465b2e929e65ee836e4d
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:2abfc60136f04446b6885781c2f654fb19db6ded7c73ef255109548e33b89251
@@ -12,7 +13,8 @@ nightly:
 stable:
   version: 20.1.0-25
   repositories:
-    rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20250926.ci.1
+    default:
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20250926.ci.1
   images:
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:cda73c26fbdb39ae20a796ca8fcd85b6b679c4db567d474212f08c61ba9aac05
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:83caa955187f672c81d27ce4ddcec5e1a2e8ff604ccc4d3a4f64d35d1d36c5e3

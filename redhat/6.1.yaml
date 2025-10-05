@@ -4,73 +4,14 @@ released:
   repo_ids:
     rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/6/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/6/rhel9/
   images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-356
-    grafana_image: registry-proxy.engineering.redhat.com/rh-osbs/grafana:6-112
-    haproxy_image: registry-proxy.engineering.redhat.com/rh-osbs/haproxy:2.4.22-50
-    keepalived_image: registry-proxy.engineering.redhat.com/rh-osbs/keepalived:2.2.8-48
-    snmp_gateway_image: registry-proxy.engineering.redhat.com/rh-osbs/snmp-notifier:1.2.1-98
-    promtail_image: registry-proxy.engineering.redhat.com/rh-osbs/promtail:v2.4.0-37
-
-z7:
-  version: 17.2.6-246
-  repo_ids:
-    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-334
-
-z6:
-  version: 17.2.6-216
-  repo_ids:
-    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-311
-
-z5:
-  version: 17.2.6-209
-  repo_ids:
-    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-304
-
-z4:
-  version: 17.2.6-196
-  repo_ids:
-    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-292
-
-z3:
-  version: 17.2.6-170
-  repo_ids:
-    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
-  ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-267
-
-z2:
-  version: 17.2.6-148
-  repo_ids:
-    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-245
-
-z1:
-  version: 17.2.6-100
-  repo_ids:
-    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-199
-
-z0:
-  version: 17.2.6-70
-  repo_ids:
-    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:6-177
+    ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-356
+    grafana_image: registry.redhat.io/rhceph/rhceph-6-dashboard-rhel9:6-112
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-50
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37

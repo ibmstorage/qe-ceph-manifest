@@ -1,62 +1,17 @@
 ---
-nightly:
-  version: 18.2.1-350
-  repositories:
-    rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20250908.ci.0
-    rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250908.ci.0
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:ceph-7.1-rhel-9-containers-candidate-16374-20250908214235
-    grafana_image: registry-proxy.engineering.redhat.com/rh-osbs/grafana:11.6.2-9
-    haproxy_image: registry-proxy.engineering.redhat.com/rh-osbs/haproxy:2.4.22-78
-    keepalived_image: registry-proxy.engineering.redhat.com/rh-osbs/keepalived:2.2.8-76
-    promtail_image: registry-proxy.engineering.redhat.com/rh-osbs/promtail:v3.0.0-43
-    snmp_gateway_image: registry-proxy.engineering.redhat.com/rh-osbs/snmp-notifier:1.2.1-126
-
-stable:
-  version: 18.2.1-350
-  repositories:
-    rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20250908.ci.0
-    rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250908.ci.0
-  images:
-    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:ceph-7.1-rhel-9-containers-candidate-16374-20250908214235
-    grafana_image: registry-proxy.engineering.redhat.com/rh-osbs/grafana:11.6.2-9
-    haproxy_image: registry-proxy.engineering.redhat.com/rh-osbs/haproxy:2.4.22-78
-    keepalived_image: registry-proxy.engineering.redhat.com/rh-osbs/keepalived:2.2.8-76
-    promtail_image: registry-proxy.engineering.redhat.com/rh-osbs/promtail:v3.0.0-43
-    snmp_gateway_image: registry-proxy.engineering.redhat.com/rh-osbs/snmp-notifier:1.2.1-126
-
 released:
   version: 18.2.0-192
   repo_ids:
     rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
   images:
-    ceph-base: registry.redhat.io/rh-osbs/rhceph:7-335
-    grafana_image: registry.redhat.io/rh-osbs/grafana:9.4.12-11
-    haproxy_image: registry.redhat.io/rh-osbs/haproxy:2.4.22-14
-    keepalived_image: registry.redhat.io/rh-osbs/keepalived:2.2.8-13
-    promtail_image: registry.redhat.io/rh-osbs/promtail:v2.4.0-21
-
-z2:
-  version: 18.2.0-192
-  repo_ids:
-    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry.redhat.io/rh-osbs/rhceph:7-335
-
-z1:
-  version: 18.2.0-153
-  repo_ids:
-    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry.redhat.io/rh-osbs/rhceph:7-199
-
-z0:
-  version: 18.2.0-131
-  repo_ids:
-    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
-    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
-  images:
-    ceph-base: registry.redhat.io/rh-osbs/rhceph:7-142
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-335
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:9.4.12-11
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-14
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-13
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-59
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-21

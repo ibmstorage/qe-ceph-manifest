@@ -14,7 +14,12 @@ The schema of a manifest file is
 nightly:
   version: <ceph-version>
   repositories:
-    <os-release>: <repo-link>
+    default:
+      <os-release>: <repo-link>
+    eu-de:
+      <os-release>: <repo-link>
+    tucson:
+      <os-release>: <repo-link>
   images:
     ceph-base: <container-registry-namespace>
     <images...>: <container-registry-namesapce>
@@ -53,3 +58,15 @@ Enable `cephci` to pick the right manifest using the below options
 --build-type  The type of build to be deployed. Example <nightly | stable | released | z1>
 --platform    The test environment platform. Example <rhel-9 | centos-9>
 ```
+
+## Notes
+
+Key points to remember
+
+- `ibm-prod` mirrors `cp.icr.io` registry
+- `ibm-stage` mirrors `cp.stg.icr.io` registry
+- `rh-prod` mirrors `registry.redhat.io` registry
+- `rh-stage` mirrors `registry-proxy.engineering.redhat.com` registry
+- Sections other than `nightly` and `stable` must point to the released versions.
+
+Ensure the local Container Registry holds the necessary images.

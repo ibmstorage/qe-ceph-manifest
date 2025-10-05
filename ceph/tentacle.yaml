@@ -1,9 +1,10 @@
 ---
 nightly:
-  version: 20.0.0-2981.g9bfe564c
+  version: 20.1.0-546.gfdf41e64
   repositories:
-    centos-9: https://1.chacra.ceph.com/repos/ceph/tentacle/9bfe564cf310499f0d46a2c08cae82292bb9f7ea/centos/9/flavors/default/repo
+    default:
+      centos-9: https://3.chacra.ceph.com/repos/ceph/tentacle/fdf41e644f06063a49010e04a13e7d3423ea8997/centos/9/flavors/default/repo
   images:
-    ceph-base: quay.ceph.io/ceph-ci/ceph:9bfe564cf310499f0d46a2c08cae82292bb9f7ea
+    ceph-base: quay.ceph.io/ceph-ci/ceph:fdf41e644f06063a49010e04a13e7d3423ea8997
     nvmeof: quay.io/ceph/nvmeof:1.1.0
     nvmeof-cli: quay.io/ceph/nvmeof-cli:1.1.0
