@@ -8,9 +8,9 @@ nightly:
       rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-42/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-42/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:93ea57ae484f3af55c075f4719c93ebb6811fe6dff207decab96d486aba58d5d
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:ced20eba8a087e0ff5799a86a654eff5e9b2fd0a5c49e13897aaec38229b2b13
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:2abfc60136f04446b6885781c2f654fb19db6ded7c73ef255109548e33b89251
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:4f4505afe75248b529f421aef5db1fc20594017896c3b0a51f8b47ccf54b1c90
-    alloy_image: quay.io/rhceph-ci/alloy@sha256:9af74a790f673745dd3037b64f2ef02721a823c012c2c48b111373ac90844c65
+    alloy_image: quay.io/rhceph-ci/alloy@sha256:c8a8859de6256832477262eaf219d5af67f36914f1971aa9ad58d4dbbe7d781b
     grafana_image: quay.io/rhceph-ci/grafana@sha256:be985a4099e23a177d9c073a820a68f9926eb209c2847bee5be9f305332efc66
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:cf9116484332ee4571a41071ab3f7831d1a2aa9452bd4b1caea9ddc2f8a4e56d
