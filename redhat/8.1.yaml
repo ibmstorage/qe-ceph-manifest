@@ -21,7 +21,7 @@ nightly:
     eu-de:
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-276/
   images:
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:4986c877f1e9b9931cd8f696a119edef4a7817ffa4c910fe9efe2b27aaf68e5c
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:8e199a0c0867026c3406f36f3b32f1aa8d51bc9f315f5240b52403c118d89362
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:a3552acfacbdc77e165601eb037a2d4f20561409741e106c5192388cec961a33
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:a2281c9eb73d1ba50d763068bef1cc8b93cb6af9d4ef36c340dd820aa98831a5
     promtail_image: quay.io/rhceph-ci/promtail@sha256:4eae348758fcfc167f7ed5b5fec351f259b866f1e3d3cc12f61523bc5ecdba47
