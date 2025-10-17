@@ -25,28 +25,26 @@ nightly:
     snmp_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-6003.20251010105428.a737681
 
 stable:
-  version: 20.1.0-57
+  version: 20.1.0-61
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202510150126.ci.0/IBM-CEPH-9.0-202510150126.ci.0-rhel9.repo
-      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202510150126.ci.0/IBM-CEPH-9.0-202510150126.ci.0-rhel10.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202510170726.ci.0/IBM-CEPH-9.0-202510170726.ci.0-rhel9.repo
+      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202510170726.ci.0/IBM-CEPH-9.0-202510170726.ci.0-rhel10.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel9/20.1.0-57/
-      rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-57/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel9/20.1.0-61/
+      rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-61/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-5968.20251009190059.e5b34f6
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.0-6150.20251015013448.cdbb6ea
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.0-6347.20251017073436.27b5918
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-5991.20251010083817.2a251a2
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.0-5989.20251010082200.ed74fe9
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.0-5956.20251009145707.912c951
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
-    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v9.0-6156.20251015034205.885abba
-    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:latest-dev-6207.20251015110014.6e7bc42
     oauth2_proxy_image: cp.stg.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v7.6.0-41
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
-    samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.0-6152.20251015020221.23255a9
-    samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.0-6151.20251015015222.9e61aed
-    samba_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-6003.20251010105428.a737681
+    samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.0-6353.20251017080225.23255a9
+    samba_server_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.0-6351.20251017075145.9e61aed
+    snmp_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-6003.20251010105428.a737681
