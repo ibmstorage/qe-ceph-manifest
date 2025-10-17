@@ -14,12 +14,12 @@ released:
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-46
     oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.6.0-37
 nightly:
-  version: 19.2.1-282
+  version: 19.2.1-283
   repositories:
     default:
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20251016.ci.5
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20251017.ci.0
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-282/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-283/
   images:
     grafana_image: quay.io/rhceph-ci/grafana@sha256:9b68982523c3086aa3d87f83b0a49901f6324edc69a88c51c1e8a09495df7a69
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:a3552acfacbdc77e165601eb037a2d4f20561409741e106c5192388cec961a33
