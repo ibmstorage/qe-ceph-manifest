@@ -1,5 +1,43 @@
 ---
+rc:
+  version: 16.2.10-275
+  repositories:
+    default:
+      rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-8.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-9.repo
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/5/8/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/5/8/rhel9/
+  images:
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-5-rhel8:5-38
+    prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202412170201.p0.g72ceaef.assembly.stream.el8
+    node_exporter_image: cp.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.12.0-202412180929.p0.g99077a3.assembly.stream.el8
+    grafana_image: cp.icr.io/cp/ibm-ceph/ceph-5-dashboard-rhel8:5-98
+    alertmanager_image: cp.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.12.0-202412170201.p0.g914cad8.assembly.stream.el8
+    haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel8:2.2.19-45
+    keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel8:2.1.5-44
+    snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel8:1.2.1-88
+
 released:
+  version: 16.2.10-275
+  repositories:
+    default:
+      rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-8.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-9.repo
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/5/8/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/5/8/rhel9/
+  images:
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-5-rhel8:5-38
+    prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202412170201.p0.g72ceaef.assembly.stream.el8
+    node_exporter_image: cp.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.12.0-202412180929.p0.g99077a3.assembly.stream.el8
+    grafana_image: cp.icr.io/cp/ibm-ceph/ceph-5-dashboard-rhel8:5-98
+    alertmanager_image: cp.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.12.0-202412170201.p0.g914cad8.assembly.stream.el8
+    haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel8:2.2.19-45
+    keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel8:2.1.5-44
+    snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel8:1.2.1-88
+
+z8:
   version: 16.2.10-275
   repositories:
     default:

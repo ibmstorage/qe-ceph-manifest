@@ -1,5 +1,35 @@
 ---
+rc:
+  version: 19.2.0-139
+  repositories:
+    eu-de:
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/8/rhel9/
+  repo_ids:
+    rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-483
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:10.4.8-58
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-62
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-60
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-110
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-29
+
 released:
+  version: 19.2.0-139
+  repositories:
+    eu-de:
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/8/rhel9/
+  repo_ids:
+    rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-483
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:10.4.8-58
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-62
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-60
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-110
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-29
+
+z5:
   version: 19.2.0-139
   repositories:
     eu-de:

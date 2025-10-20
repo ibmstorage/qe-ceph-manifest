@@ -1,5 +1,56 @@
 ---
+rc:
+  version: 18.2.1-361
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-553
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:11.6.2-17
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-87
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-86
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-135
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-52
+
 released:
+  version: 18.2.1-361
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-553
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:11.6.2-17
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-87
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-86
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-135
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-52
+
+z8:
+  version: 18.2.1-361
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-553
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:11.6.2-17
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-87
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-86
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-135
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-52
+
+z7:
   version: 18.2.1-340
   repo_ids:
     rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms

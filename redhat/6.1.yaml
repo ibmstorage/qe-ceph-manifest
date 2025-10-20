@@ -1,5 +1,36 @@
 ---
+rc:
+  version: 17.2.6-277
+  repositories:
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/6/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/6/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-356
+    grafana_image: registry.redhat.io/rhceph/rhceph-6-dashboard-rhel9:6-112
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-50
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
+
 released:
+  version: 17.2.6-277
+  repo_ids:
+    rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/6/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/6/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-356
+    grafana_image: registry.redhat.io/rhceph/rhceph-6-dashboard-rhel9:6-112
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-50
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
+
+z9:
   version: 17.2.6-277
   repo_ids:
     rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
