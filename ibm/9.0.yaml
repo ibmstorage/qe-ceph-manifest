@@ -20,7 +20,7 @@ nightly:
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.0-6353.20251017080225.23255a9
-    samba_server_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.0-6351.20251017075145.9e61aed
+    samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.0-6351.20251017075145.9e61aed
     snmp_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-6003.20251010105428.a737681
 stable:
   version: 20.1.0-61
@@ -44,5 +44,5 @@ stable:
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.0-6353.20251017080225.23255a9
-    samba_server_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.0-6351.20251017075145.9e61aed
+    samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.0-6351.20251017075145.9e61aed
     snmp_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-6003.20251010105428.a737681
