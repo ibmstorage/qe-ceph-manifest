@@ -1,11 +1,11 @@
 ---
 nightly:
-  version: 19.2.1-282
+  version: 19.2.1-283
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202510170306.ci.0/IBM-CEPH-8.1-202510170306.ci.0-rhel9.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202510230122.ci.0/IBM-CEPH-8.1-202510230122.ci.0-rhel9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-282/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-283/
   images:
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-6336.20251017061727.bcf9500
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:11.6.2-13
@@ -13,13 +13,15 @@ nightly:
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-81
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
+    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-6430.20251022123943.a4b8d07
+    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-6431.20251022130309.8654221
     oauth2_proxy_image: cp.stg.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v7.6.0-38
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v3.0.0-48
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6339.20251017064758.57788c4
-    samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6337.20251017063748.6437ce2
+    samba_imge: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6337.20251017063748.6437ce2
     snmp_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-131
 
 rc:
