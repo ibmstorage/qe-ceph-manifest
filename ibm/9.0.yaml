@@ -10,7 +10,7 @@ nightly:
       rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-66/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-5968.20251009190059.e5b34f6
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.0-6516.20251023120752.c620e47
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-rhel9-6577.20251024154353.0f1e344
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-5991.20251010083817.2a251a2
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.0-5989.20251010082200.ed74fe9
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.0-5956.20251009145707.912c951
