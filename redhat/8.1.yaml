@@ -10,7 +10,7 @@ nightly:
     haproxy_image: quay.io/rhceph-ci/haproxy:release-8.1-1760344664
     keepalived_image: quay.io/rhceph-ci/keepalived:release-8.1-1760674201
     promtail_image: quay.io/rhceph-ci/promtail:release-8.1-1760774611
-    ceph-base: quay.io/rhceph-ci/rhceph:release-8.1-1761248681
+    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:ceph-8.1-rhel-9-containers-candidate-95600-20251025175757
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier:release-8.1-1761140355
 rc:
   version: 19.2.1-274
