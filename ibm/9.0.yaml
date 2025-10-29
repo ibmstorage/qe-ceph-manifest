@@ -1,16 +1,14 @@
 ---
 nightly:
-  version: 20.1.0-68
+  version: 20.1.0-71
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202510241513.ci.0/IBM-CEPH-9.0-202510241513.ci.0-rhel9.repo
-      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202510241513.ci.0/IBM-CEPH-9.0-202510241513.ci.0-rhel10.repo
+      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202510291742.ci.0/IBM-CEPH-9.0-202510291742.ci.0-rhel10.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel9/20.1.0-68/
-      rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-68/
+      rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-71/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-5968.20251009190059.e5b34f6
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-rhel9-6577.20251024154353.0f1e344
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel10:9.0-71.0.testfix.bz2405170-rhel10
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-5991.20251010083817.2a251a2
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.0-5989.20251010082200.ed74fe9
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.0-5956.20251009145707.912c951
