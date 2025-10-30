@@ -2,17 +2,33 @@ nightly:
   version: 19.2.1-292
   repositories:
     default:
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20251029.ci.0
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.1-RHEL-9-20251029.0/RHCEPH-8.1-RHEL-9-20251029.0.repo
     eu-de:
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-292/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:e844f1218a3ffe563e18203b2fc7ab116d9cd098e8a998df7bf5cc6c4f28f0bc
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:cf6c70ba7cca5d728b4c420928995fb828b1ef6ff93a8e9df7057cfb8bb5f2ce
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:1d60184dc3426521cb94558fdae1c41045719c40191b0d0dbe295caa99fd519f
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:f606b2c399e5d342d2a64073abcb5b0cf28b045e7a677178b0ed82fd9fbf8c12
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:473e3a170fcb7ec26eab2ae1147ab95aa840db724fa1d91792bdf6e67caf61df
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:4d3f23fdc212b45f794bf7a95b8c0a8dd06af939b8da064db0230ef5bbed38fc
+    ceph-base: quay.io/rhceph-ci/rhceph:release-8.1-1761794300
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier:release-8.1-1761651485
+    haproxy_image: quay.io/rhceph-ci/haproxy:release-8.1-1761632592
+    promtail_image: quay.io/rhceph-ci/promtail:release-8.1-1761630271
+    grafana_image: quay.io/rhceph-ci/grafana:release-8.1-1761630173
+    keepalived_image: quay.io/rhceph-ci/keepalived:release-8.1-1761638995
+
 rc:
+  version: 19.2.1-292
+  repositories:
+    default:
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.1-RHEL-9-20251029.0/RHCEPH-8.1-RHEL-9-20251029.0.repo
+    eu-de:
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-292/
+  images:
+    ceph-base: quay.io/rhceph-ci/rhceph:release-8.1-1761794300
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier:release-8.1-1761651485
+    haproxy_image: quay.io/rhceph-ci/haproxy:release-8.1-1761632592
+    promtail_image: quay.io/rhceph-ci/promtail:release-8.1-1761630271
+    grafana_image: quay.io/rhceph-ci/grafana:release-8.1-1761630173
+    keepalived_image: quay.io/rhceph-ci/keepalived:release-8.1-1761638995
+
+stable:
   version: 19.2.1-290
   repositories:
     default:
@@ -26,6 +42,7 @@ rc:
     promtail_image: quay.io/rhceph-ci/promtail:v8.1-716f4735ba7edd4021f6e91de4aa29ad7038119d
     grafana_image: quay.io/rhceph-ci/grafana:v8.1-bc7273fc0c8a70913bf4bf981574efebaa7cb3d6
     keepalived_image: quay.io/rhceph-ci/keepalived:v8.1-b92a6e9cf3a2d7f20ed33dcb5f963bf3ef115bc4
+
 released:
   version: 19.2.1-274
   repo_ids:
