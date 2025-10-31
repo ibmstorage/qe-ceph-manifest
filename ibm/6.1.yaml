@@ -58,3 +58,24 @@ z9:
     node_exporter_image: cp.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.12.0-202503181728.p0.g99077a3.assembly.stream.el8
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202503181728.p0.g72ceaef.assembly.stream.el8
     snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-98
+
+z6:
+  version: 17.2.6-216
+  repositories:
+    default:
+      rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/6/rhel8/x86_64/
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-6-rhel-9.repo
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/6/9/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/6/9/rhel9/
+  images:
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-24
+    # custom-images belong to z9, z6 data is unavailable
+    haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-50
+    keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-48
+    grafana_image: cp.icr.io/cp/ibm-ceph/ceph-6-dashboard-rhel9:6-112
+    loki_image: cp.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
+    alertmanager_image: cp.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.12.0-202503181728.p0.g914cad8.assembly.stream.el8
+    node_exporter_image: cp.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.12.0-202503181728.p0.g99077a3.assembly.stream.el8
+    prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202503181728.p0.g72ceaef.assembly.stream.el8
+    snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-98
