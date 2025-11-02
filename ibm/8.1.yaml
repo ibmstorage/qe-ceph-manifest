@@ -23,7 +23,7 @@ nightly:
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-6683.20251028111347.d13df4a
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6769.20251030030516.57788c4
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6768.20251030025438.6437ce2
-    snmp_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
+    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
 
 rc:
   version: 19.2.1-292
@@ -49,7 +49,7 @@ rc:
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-6683.20251028111347.d13df4a
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6769.20251030030516.57788c4
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6768.20251030025438.6437ce2
-    snmp_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
+    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
 
 stable:
   version: 19.2.1-290
@@ -75,7 +75,7 @@ stable:
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-6683.20251028111347.d13df4a
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6639.20251028001242.57788c4
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6638.20251028000238.6437ce2
-    snmp_notifier_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
+    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
 
 released:
   version: 19.2.1-274
