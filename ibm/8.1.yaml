@@ -7,7 +7,7 @@ nightly:
     eu-de:
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-292/
   images:
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:19.2.1-290.0.crimson.71.20251028141604
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:19.2.1-292.0.crimson.72.20251030130833
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-6766.20251030023757.bcf9500
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-6685.20251028112850.bc7273f
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-6664.20251028063700.e5f59ac
