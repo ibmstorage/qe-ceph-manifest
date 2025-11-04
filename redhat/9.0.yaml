@@ -10,7 +10,7 @@ nightly:
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-75/
   images:
     ceph-base: quay.io/rhceph-ci/rhceph:release-9.0-1762182266
-    snmp_image: quay.io/rhceph-ci/snmp-notifier:release-9.0-1761870225
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier:release-9.0-1761870225
     haproxy_image: quay.io/rhceph-ci/haproxy:release-9.0-1762142777
     keepalived_image: quay.io/rhceph-ci/keepalived:release-9.0-1762142783
     grafana_image: quay.io/rhceph-ci/grafana:release-9.0-1761984977
