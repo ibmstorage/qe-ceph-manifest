@@ -2,10 +2,14 @@ rc:
   version: 18.2.1-361
   repositories:
     default:
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.1-RHEL-9-20251029.0/RHCEPH-8.1-RHEL-9-20251029.0.repo
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
+      rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
     eu-de:
       rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-553
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:11.6.2-17
@@ -18,10 +22,14 @@ released:
   version: 18.2.1-361
   repositories:
     default:
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.1-RHEL-9-20251029.0/RHCEPH-8.1-RHEL-9-20251029.0.repo
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
+      rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
     eu-de:
       rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-553
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:11.6.2-17
@@ -34,10 +42,14 @@ z8:
   version: 18.2.1-361
   repositories:
     default:
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.1-RHEL-9-20251029.0/RHCEPH-8.1-RHEL-9-20251029.0.repo
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
+      rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
     eu-de:
       rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-553
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:11.6.2-17
