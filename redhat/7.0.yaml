@@ -2,6 +2,8 @@
 rc:
   version: 18.2.0-192
   repositories:
+    default:
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.0-RHEL-9-20240423.0/RHCEPH-7.0-RHEL-9-20240423.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/

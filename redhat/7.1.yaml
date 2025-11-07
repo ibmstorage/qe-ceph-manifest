@@ -74,3 +74,44 @@ z7:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-78
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-126
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-43
+z2:
+  composes:
+    rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20241031.0/RHCEPH-7.1-RHEL-9-20241031.0.repo
+  ceph-version: 18.2.1-262
+  repository: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:7-453
+  custom-configs:
+    grafana_image: registry-proxy.engineering.redhat.com/rh-osbs/grafana:10.4.0-35
+    haproxy_image: registry-proxy.engineering.redhat.com/rh-osbs/haproxy:2.4.22-36
+    keepalived_image: registry-proxy.engineering.redhat.com/rh-osbs/keepalived:2.2.8-34
+    snmp_gateway_image: registry-proxy.engineering.redhat.com/rh-osbs/snmp-notifier:1.2.1-84
+    promtail_image: registry-proxy.engineering.redhat.com/rh-osbs/promtail:v3.0.0-7
+    nvmeof_image: registry-proxy.engineering.redhat.com/rh-osbs/ceph-nvmeof:1.2.16-27
+    nvmeof_cli_image: registry-proxy.engineering.redhat.com/rh-osbs/ceph-nvmeof-cli:1.2.16-10
+z1:
+  composes:
+    rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20240731.0/RHCEPH-7.1-RHEL-9-20240731.0.repo
+    rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-8-20240731.0/RHCEPH-7.1-RHEL-8-20240731.0.repo
+  ceph-version: 18.2.1-229
+  repository: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:7-424
+  custom-configs:
+    grafana_image: registry-proxy.engineering.redhat.com/rh-osbs/grafana:10.4.0-15
+    haproxy_image: registry-proxy.engineering.redhat.com/rh-osbs/haproxy:2.4.22-27
+    keepalived_image: registry-proxy.engineering.redhat.com/rh-osbs/keepalived:2.2.8-26
+    snmp_gateway_image: registry-proxy.engineering.redhat.com/rh-osbs/snmp-notifier:1.2.1-76
+    promtail_image: registry-proxy.engineering.redhat.com/rh-osbs/promtail:v2.4.0-34
+    nvmeof_image: registry-proxy.engineering.redhat.com/rh-osbs/ceph-nvmeof:1.2.16-8
+    nvmeof_cli_image: registry-proxy.engineering.redhat.com/rh-osbs/ceph-nvmeof-cli:1.2.16-8
+z0:
+  composes:
+    rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20240531.0/RHCEPH-7.1-RHEL-9-20240531.0.repo
+    rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-8-20240603.0/RHCEPH-7.1-RHEL-8-20240603.0.repo
+  ceph-version: 18.2.1-194
+  repository: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:7-385
+  custom-configs:
+    grafana_image: registry-proxy.engineering.redhat.com/rh-osbs/grafana:10.4.0-9
+    haproxy_image: registry-proxy.engineering.redhat.com/rh-osbs/haproxy:2.4.22-21
+    keepalived_image: registry-proxy.engineering.redhat.com/rh-osbs/keepalived:2.2.8-20
+    snmp_gateway_image: registry-proxy.engineering.redhat.com/rh-osbs/snmp-notifier:1.2.1-67
+    promtail_image: registry-proxy.engineering.redhat.com/rh-osbs/promtail:v2.4.0-28
+    nvmeof_image: registry-proxy.engineering.redhat.com/rh-osbs/ceph-nvmeof:1.2.13-4
+    nvmeof_cli_image: registry-proxy.engineering.redhat.com/rh-osbs/ceph-nvmeof-cli:1.2.13-4
