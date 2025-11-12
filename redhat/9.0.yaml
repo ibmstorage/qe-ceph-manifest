@@ -1,14 +1,14 @@
 nightly:
-  version: 20.1.0-83
+  version: 20.1.0-81
   repositories:
     default:
       rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.0-rhel-10/RHCEPH-9.0-RHEL-10-20251111.ci.1
       rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20251111.ci.0
     eu-de:
-      rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-83/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-83/
+      rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-81/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-81/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:0dfb5ade9e4e2ba19e4eded9b834080171aa45d1a67b87e0a3388924643f5e5e
+    ceph-base: quay.io/rhceph-ci/rhceph:on-pr-v9.0-d194ae96a10191662789de56a129c87f4f77ebbc
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:4a8b1632ece7a8e1ef3377e3f11273ff45b7033527e6a07e8d4cec842e8b102a
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:4f4505afe75248b529f421aef5db1fc20594017896c3b0a51f8b47ccf54b1c90
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:cf9116484332ee4571a41071ab3f7831d1a2aa9452bd4b1caea9ddc2f8a4e56d
