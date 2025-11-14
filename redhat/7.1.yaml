@@ -2,8 +2,8 @@ rc:
   version: 18.2.1-361
   repositories:
     default:
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
@@ -22,8 +22,8 @@ released:
   version: 18.2.1-361
   repositories:
     default:
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
@@ -42,8 +42,8 @@ z8:
   version: 18.2.1-361
   repositories:
     default:
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
@@ -64,13 +64,75 @@ z7:
     rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
   repositories:
+    default:
+      rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-8-20250612.0/RHCEPH-7.1-RHEL-8-20250612.0.repo
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250612.0/RHCEPH-7.1-RHEL-9-20250612.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-533
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:11.6.2-9
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-14
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-78
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-78
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-76
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-126
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-43
+
+z2:
+  version: 18.2.1-262
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    default:
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20241031.0/RHCEPH-7.1-RHEL-9-20241031.0.repo
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-453
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:10.4.0-35
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-36
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-34
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-84
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-7
+
+z1:
+  version: 18.2.1-229
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    default:
+      rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-8-20240731.0/RHCEPH-7.1-RHEL-8-20240731.0.repo
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20240731.0/RHCEPH-7.1-RHEL-9-20240731.0.repo
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-424
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:10.4.0-15
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-27
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-26
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-76
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-34
+
+z0:
+  version: 18.2.1-194
+  repo_ids:
+    rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
+    rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
+  repositories:
+    default:
+      rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-8-20240603.0/RHCEPH-7.1-RHEL-8-20240603.0.repo
+      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20240531.0/RHCEPH-7.1-RHEL-9-20240531.0.repo
+    eu-de:
+      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-385
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:10.4.0-9
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-21
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-20
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-67
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-28
