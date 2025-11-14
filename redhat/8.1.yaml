@@ -41,19 +41,34 @@ stable:
     grafana_image: quay.io/rhceph-ci/grafana:v8.1-bc7273fc0c8a70913bf4bf981574efebaa7cb3d6
     keepalived_image: quay.io/rhceph-ci/keepalived:v8.1-b92a6e9cf3a2d7f20ed33dcb5f963bf3ef115bc4
 released:
-  version: 19.2.1-274
+  version: 19.2.1-292
   repo_ids:
     rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
   repositories:
     eu-de:
       rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/8/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-562
-    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:11.6.2-16
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-86
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-85
-    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-134
-    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-51
+    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-1761838922
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:8-1761657452
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1761632786
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:8-1761631894
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1761651933
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1761715626
+    oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.6.0-41
+z4:
+  version: 19.2.1-292
+  repo_ids:
+    rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
+  repositories:
+    eu-de:
+      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/8/rhel9/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-1761838922
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:8-1761657452
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1761632786
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:8-1761631894
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1761651933
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1761715626
     oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.6.0-41
 z3:
   version: 19.2.1-274
