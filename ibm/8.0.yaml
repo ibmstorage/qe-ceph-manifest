@@ -5,7 +5,7 @@ rc:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-8-rhel-9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/8/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-8-rhel9:8-150
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202505280939.p0.g79fa623.assembly.stream.el8
@@ -30,7 +30,7 @@ released:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-8-rhel-9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/8/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-8-rhel9:8-150
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202505280939.p0.g79fa623.assembly.stream.el8
@@ -55,7 +55,7 @@ z5:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-8-rhel-9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/8/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-8-rhel9:8-150
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202505280939.p0.g79fa623.assembly.stream.el8

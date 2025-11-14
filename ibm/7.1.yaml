@@ -6,8 +6,8 @@ rc:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:7-159
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
@@ -29,8 +29,8 @@ released:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:7-159
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
@@ -52,8 +52,8 @@ z8:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:7-159
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8

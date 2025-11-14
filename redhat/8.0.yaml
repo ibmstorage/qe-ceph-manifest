@@ -5,7 +5,7 @@ rc:
     default:
       rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.0-RHEL-9-20250604.0/RHCEPH-8.0-RHEL-9-20250604.0.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   repo_ids:
     rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
   images:
@@ -22,7 +22,7 @@ released:
     default:
       rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.0-RHEL-9-20250604.0/RHCEPH-8.0-RHEL-9-20250604.0.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   repo_ids:
     rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
   images:
@@ -39,7 +39,7 @@ z5:
     default:
       rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.0-RHEL-9-20250604.0/RHCEPH-8.0-RHEL-9-20250604.0.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   repo_ids:
     rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
   images:

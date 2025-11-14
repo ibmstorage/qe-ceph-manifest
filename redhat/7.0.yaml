@@ -8,8 +8,8 @@ rc:
     default:
       rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-6.1-RHEL-8-20240416.0/RHCEPH-6.1-RHEL-8-20240416.0.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-335
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:9.4.12-11
@@ -27,8 +27,8 @@ released:
     default:
       rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-6.1-RHEL-8-20240416.0/RHCEPH-6.1-RHEL-8-20240416.0.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-335
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:9.4.12-11
@@ -46,8 +46,8 @@ z2:
     default:
       rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-6.1-RHEL-8-20240416.0/RHCEPH-6.1-RHEL-8-20240416.0.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-335
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:9.4.12-11

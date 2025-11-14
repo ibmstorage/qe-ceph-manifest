@@ -6,8 +6,8 @@ nightly:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202511121958.ci.0/IBM-CEPH-9.0-202511121958.ci.0-rhel9.repo
       rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202511121958.ci.0/IBM-CEPH-9.0-202511121958.ci.0-rhel10.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel9/20.1.0-85/
-      rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-85/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.1.0-85/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-85/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-5968.20251009190059.e5b34f6
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-7377.20251112200656.38f3db6
@@ -33,8 +33,8 @@ stable:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202511062004.ci.0/IBM-CEPH-9.0-202511062004.ci.0-rhel9.repo
       rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202511062004.ci.0/IBM-CEPH-9.0-202511062004.ci.0-rhel10.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel9/20.1.0-78/
-      rhel-10: http://repo.qe.ceph.eu.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-78/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.1.0-78/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-78/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-5968.20251009190059.e5b34f6
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-ubi9-7172.20251107060514.7a74748
