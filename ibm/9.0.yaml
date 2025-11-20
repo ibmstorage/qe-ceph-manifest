@@ -25,7 +25,6 @@ nightly:
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.0-7672.20251120035406.8c71dfe
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-6003.20251010105428.a737681
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.0-7678.20251120045056.ae6a209
-    ceph_csi_image: cp.stg.icr.io/cp/ibm-ceph/cephcsi:v4.16.11-1
 stable:
   version: 20.1.0-95
   repositories:
