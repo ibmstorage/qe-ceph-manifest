@@ -83,7 +83,7 @@ released:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-8-rhel-9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/8/rhel9/
   images:
     crimson_image: cp.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:19.2.1-292.0.crimson.72.20251030130833
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-6937.20251103193444.bcf9500

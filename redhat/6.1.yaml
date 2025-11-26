@@ -66,7 +66,7 @@ z6:
       rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-6.1-RHEL-8-20240416.0/RHCEPH-6.1-RHEL-8-20240416.0.repo
       rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-6.1-RHEL-9-20240416.0/RHCEPH-6.1-RHEL-9-20240416.0.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/6/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/redhat/6/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/6/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/6/rhel9/
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-311

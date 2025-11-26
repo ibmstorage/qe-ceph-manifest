@@ -75,8 +75,8 @@ z2:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:7-96
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202410182132.p0.g6828e44.assembly.stream.el8
@@ -98,8 +98,8 @@ z1:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:7-78
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202407080939.p0.g6828e44.assembly.stream.el8
@@ -121,8 +121,8 @@ z0:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel8/
-      rhel-9: http://repo.qe.ceph.eu.lab/repos/ceph/released/ibm/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:7-59
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202405141637.p0.g6828e44.assembly.stream.el8
