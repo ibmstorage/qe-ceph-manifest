@@ -1,16 +1,15 @@
----
 nightly:
   version: 19.2.1-292
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202510300227.ci.0/IBM-CEPH-8.1-202510300227.ci.0-rhel9.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202511241508.ci.0/IBM-CEPH-8.1-202511241508.ci.0-rhel9.repo
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-292/
   images:
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:19.2.1-292.0.crimson.72.20251030130833
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-6937.20251103193444.bcf9500
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-7884.20251124152254.3fb1d7a
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-7886.20251124152307.3fb1d7a
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-6685.20251028112850.bc7273f
-    haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-6664.20251028063700.e5f59ac
+    haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-7905.20251125050549.14c3461
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-6663.20251028063633.947d067
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
@@ -21,10 +20,9 @@ nightly:
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-6683.20251028111347.d13df4a
-    samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6939.20251103201103.57788c4
-    samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6938.20251103195826.6437ce2
+    samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-7887.20251124153120.57788c4
+    samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-7883.20251124152124.6437ce2
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
-
 rc:
   version: 19.2.1-292
   repositories:
@@ -50,7 +48,6 @@ rc:
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6939.20251103201103.57788c4
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6938.20251103195826.6437ce2
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
-
 stable:
   version: 19.2.1-292
   repositories:
@@ -76,7 +73,6 @@ stable:
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6939.20251103201103.57788c4
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6938.20251103195826.6437ce2
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
-
 released:
   version: 19.2.1-292
   repositories:
@@ -102,7 +98,6 @@ released:
     samba_metrics_image: cp.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6939.20251103201103.57788c4
     samba_image: cp.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6938.20251103195826.6437ce2
     snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
-
 z4:
   version: 19.2.1-292
   repositories:
@@ -128,7 +123,6 @@ z4:
     samba_metrics_image: cp.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-6939.20251103201103.57788c4
     samba_image: cp.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-6938.20251103195826.6437ce2
     snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-6677.20251028090728.5a3acc3
-
 z3:
   version: 19.2.1-274
   repositories:
@@ -153,4 +147,3 @@ z3:
     samba_metrics_image: cp.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-4426.20250812032330.57788c4
     oauth2_proxy_image: cp.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v7.6.0-37
     nginx_image: cp.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
-
