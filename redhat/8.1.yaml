@@ -16,7 +16,7 @@ rc:
   version: 19.2.1-292
   repositories:
     default:
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-8.1-RHEL-9-20251029.0/RHCEPH-8.1-RHEL-9-20251029.0.repo
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20251106.ci.0
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-292/
   images:
