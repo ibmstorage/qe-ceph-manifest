@@ -50,9 +50,9 @@ released:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-1761838922
-    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:8-1761657452
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1761632786
+    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-1764157355
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:8-1763660853
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1764045646
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:8-1761631894
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1761651933
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1761715626
