@@ -132,7 +132,7 @@ z0:
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-28
 nightly:
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:8bb3936053b36a566133e8db6edc460a33e015d3cadc7b190b2eea26a00731fc
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:9805d289a25b976143f669c4fd0e8f239e0e75c2b4f55c3d517ee140cad1ccf4
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:a5837ce30376c9f3b14f22a77658fb917ba84fb6e73ea59e02c756aa7cb6890c
     grafana_image: quay.io/rhceph-ci/grafana@sha256:d3f254005644a48aec0ca75c9ff4c0490567a5bda030d0b23f70a464f62fa153
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:54a8f7a7bc11e09fe5236651f08146cb7208e282d0f3ad47387d3145185e5816
