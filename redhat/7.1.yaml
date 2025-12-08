@@ -17,7 +17,6 @@ rc:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-86
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-135
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-52
-
 released:
   version: 18.2.1-361
   repositories:
@@ -37,7 +36,6 @@ released:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-86
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-135
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-52
-
 z8:
   version: 18.2.1-361
   repositories:
@@ -57,7 +55,6 @@ z8:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-86
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-135
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-52
-
 z7:
   version: 18.2.1-340
   repo_ids:
@@ -77,7 +74,6 @@ z7:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-76
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-126
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-43
-
 z2:
   version: 18.2.1-262
   repo_ids:
@@ -96,7 +92,6 @@ z2:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-34
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-84
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-7
-
 z1:
   version: 18.2.1-229
   repo_ids:
@@ -116,7 +111,6 @@ z1:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-26
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-76
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-34
-
 z0:
   version: 18.2.1-194
   repo_ids:
@@ -136,3 +130,11 @@ z0:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-20
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-67
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-28
+nightly:
+  images:
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:8bb3936053b36a566133e8db6edc460a33e015d3cadc7b190b2eea26a00731fc
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:c7d142f80df485b331330cdb1ce2451ee0536fd7bef9a903600d806099ecaa89
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:d3f254005644a48aec0ca75c9ff4c0490567a5bda030d0b23f70a464f62fa153
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:54a8f7a7bc11e09fe5236651f08146cb7208e282d0f3ad47387d3145185e5816
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:d2979c63a7cdcbd2e63a832b77c36dae27a34e03215ec5c6b3a3cbcd19be0e9c
+    promtail_image: quay.io/rhceph-ci/promtail@sha256:aa24d541f642d2d80576e0a89ebf00bf520355cb357c3d80c79c8216f8390d40
