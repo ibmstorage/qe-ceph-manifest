@@ -137,4 +137,4 @@ nightly:
     grafana_image: quay.io/rhceph-ci/grafana@sha256:d3f254005644a48aec0ca75c9ff4c0490567a5bda030d0b23f70a464f62fa153
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:54a8f7a7bc11e09fe5236651f08146cb7208e282d0f3ad47387d3145185e5816
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:d2979c63a7cdcbd2e63a832b77c36dae27a34e03215ec5c6b3a3cbcd19be0e9c
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:aa24d541f642d2d80576e0a89ebf00bf520355cb357c3d80c79c8216f8390d40
+    promtail_image: quay.io/rhceph-ci/promtail@sha256:c46452ffea60f83299d5c75231de7a5e7d9c7a3a096858c8f75041ec93d3a420
