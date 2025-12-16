@@ -3,7 +3,6 @@ rc:
   repositories:
     default:
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
@@ -22,7 +21,6 @@ released:
   repositories:
     default:
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
@@ -39,9 +37,6 @@ released:
 z8:
   version: 18.2.1-361
   repositories:
-    default:
-      rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20250923.ci.0
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250924.0/RHCEPH-7.1-RHEL-9-20250924.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
@@ -61,9 +56,6 @@ z7:
     rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
   repositories:
-    default:
-      rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-8-20250612.0/RHCEPH-7.1-RHEL-8-20250612.0.repo
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20250612.0/RHCEPH-7.1-RHEL-9-20250612.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
@@ -80,8 +72,6 @@ z2:
     rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
   repositories:
-    default:
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20241031.0/RHCEPH-7.1-RHEL-9-20241031.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
@@ -98,9 +88,6 @@ z1:
     rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
   repositories:
-    default:
-      rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-8-20240731.0/RHCEPH-7.1-RHEL-8-20240731.0.repo
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20240731.0/RHCEPH-7.1-RHEL-9-20240731.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
@@ -117,9 +104,6 @@ z0:
     rhel-9: rhceph-7-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-7-tools-for-rhel-8-x86_64-rpms
   repositories:
-    default:
-      rhel-8: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-8-20240603.0/RHCEPH-7.1-RHEL-8-20240603.0.repo
-      rhel-9: https://s3.upshift.redhat.com/ceph-composes/RHCEPH-7.1-RHEL-9-20240531.0/RHCEPH-7.1-RHEL-9-20240531.0.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
@@ -130,11 +114,3 @@ z0:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-20
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-67
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-28
-nightly:
-  images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:9805d289a25b976143f669c4fd0e8f239e0e75c2b4f55c3d517ee140cad1ccf4
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:a5837ce30376c9f3b14f22a77658fb917ba84fb6e73ea59e02c756aa7cb6890c
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:da1d0e797c93226ee8dec3e47eaaf7e4fcc86437291148c6c56bee01c5c63232
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:1c13c84d7a4cf4b948e6b89986d0b29e3c5e0062f2b5ec90435b8a0f97844eea
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:deeae820cc073560a4857697f3fb5d88e248023857da4998270fd631ba2e231c
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:fbfef5dc107c70418ad6f02de754a5b93a899f92a648c108074c599d505dbd69
