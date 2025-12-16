@@ -18,21 +18,21 @@ rc:
     default:
       rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20251106.ci.0
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-292/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph:release-8.1-1761794300
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier:release-8.1-1761651485
-    haproxy_image: quay.io/rhceph-ci/haproxy:release-8.1-1761632592
-    promtail_image: quay.io/rhceph-ci/promtail:release-8.1-1761630271
-    grafana_image: quay.io/rhceph-ci/grafana:release-8.1-1761630173
-    keepalived_image: quay.io/rhceph-ci/keepalived:release-8.1-1761638995
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8-1765478605
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:8-1765189394
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1765190554
+    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:8-1765174449
+    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:8-1765183032
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:8-1765191550
 stable:
   version: 19.2.1-292
   repositories:
     default:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-292/
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20251106.ci.0
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-290/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
     ceph-base: quay.io/rhceph-ci/rhceph:release-8.1-1761794300
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier:release-8.1-1761651485
