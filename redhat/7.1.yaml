@@ -114,3 +114,6 @@ z0:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-20
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-67
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-28
+nightly:
+  images:
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:deeae820cc073560a4857697f3fb5d88e248023857da4998270fd631ba2e231c
