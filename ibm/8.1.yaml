@@ -22,7 +22,7 @@ nightly:
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-8771.20251215170223.d13df4a
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-8768.20251215151957.57788c4
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-8764.20251215150759.6437ce2
-    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-8784.20251216011046.6b62061
+    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:latest-dev-qe-manifest-9123.20251219143817.6b62061
 rc:
   version: 19.2.1-292
   repositories:
