@@ -49,15 +49,15 @@ rc:
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-8394.20251208192254.6437ce2
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-8372.20251208115813.6b62061
 stable:
-  version: 19.2.1-304
+  version: 19.2.1-306
   repositories:
     default:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-304/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-306/
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-292/
   images:
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:19.2.1-292.0.crimson.72.20251030130833
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-8926.20251217114331.c394ee9
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-9253.20251224091132.c394ee9
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-8373.20251208120559.a1ec8a3
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-8344.20251208083313.7a59aa7
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-8345.20251208083459.947d067
