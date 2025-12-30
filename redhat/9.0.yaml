@@ -15,18 +15,18 @@ nightly:
     grafana_image: quay.io/rhceph-ci/grafana@sha256:a69449c0e7c1bdd7ca065d0c552434dabf9a1e3ba7dc95c1802f88d5c7c8e59d
     alloy_image: quay.io/rhceph-ci/alloy@sha256:1738814c89937f1a513cd959782b61623010048cad5d656a2558205ea7b115e7
 stable:
-  version: 20.1.0-130
+  version: 20.1.0-137
   repositories:
     default:
-      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.0-rhel-10/RHCEPH-9.0-RHEL-10-20251212.ci.2
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20251212.ci.2
+      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.0-rhel-10/RHCEPH-9.0-RHEL-10-20251223.ci.0
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20251223.ci.0
     eu-de:
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-130/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-130/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-137/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-137/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:d73121460bf5c4fe1133facf85ae76982d61eb965e403cef9fd5e991679f85e6
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:928e0dc9476c0fa8c74e22960c5e66049cd0a92d8b127298642e2876ac5dfcfd
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:498108975f765778616fa0ec1dfafcb5683078143f0373a7afba5a13302bef4a
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:18ff1b751e9cd2596f6cce99a8e5a4e5ba7fc156a8381a7915e4f719566b3e19
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:8f5d2769615f71f451b333d3c23f506689e5968ee5b1565107b0848e195e19ab
     grafana_image: quay.io/rhceph-ci/grafana@sha256:a69449c0e7c1bdd7ca065d0c552434dabf9a1e3ba7dc95c1802f88d5c7c8e59d
-    alloy_image: quay.io/rhceph-ci/alloy@sha256:9d6cbaa50fea191ccda8cc721c91e15b8a6c4972a5793ee478c6abe2f5c745c2
+    alloy_image: quay.io/rhceph-ci/alloy@sha256:1738814c89937f1a513cd959782b61623010048cad5d656a2558205ea7b115e7
