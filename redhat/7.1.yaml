@@ -1,3 +1,16 @@
+nightly:
+  version: 18.2.1-371
+  repositories:
+    default:
+      rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20260108.ci.3
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20260109.ci.0
+  images:
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:deeae820cc073560a4857697f3fb5d88e248023857da4998270fd631ba2e231c
+    promtail_image: quay.io/rhceph-ci/promtail@sha256:c46452ffea60f83299d5c75231de7a5e7d9c7a3a096858c8f75041ec93d3a420
+    ceph-base: quay.io/rhceph-ci/rhceph:v7.1-94ac038d76599a14e3b79955004e0bf99200bc7a
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:a5837ce30376c9f3b14f22a77658fb917ba84fb6e73ea59e02c756aa7cb6890c
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:da1d0e797c93226ee8dec3e47eaaf7e4fcc86437291148c6c56bee01c5c63232
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:1c13c84d7a4cf4b948e6b89986d0b29e3c5e0062f2b5ec90435b8a0f97844eea
 rc:
   version: 18.2.1-361
   repositories:
@@ -113,11 +126,3 @@ z0:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-20
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-67
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-28
-nightly:
-  images:
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:deeae820cc073560a4857697f3fb5d88e248023857da4998270fd631ba2e231c
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:c46452ffea60f83299d5c75231de7a5e7d9c7a3a096858c8f75041ec93d3a420
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:9682c68363496a40792c3721ea4914dc61051ac16999c50baf2003d9fb82551c
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:a5837ce30376c9f3b14f22a77658fb917ba84fb6e73ea59e02c756aa7cb6890c
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:da1d0e797c93226ee8dec3e47eaaf7e4fcc86437291148c6c56bee01c5c63232
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:1c13c84d7a4cf4b948e6b89986d0b29e3c5e0062f2b5ec90435b8a0f97844eea
