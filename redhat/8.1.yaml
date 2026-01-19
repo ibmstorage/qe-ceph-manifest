@@ -1,10 +1,10 @@
 nightly:
-  version: 19.2.1-311
+  version: 19.2.1-312
   repositories:
     default:
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20260116.ci.0
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20260119.ci.0
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-311/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-312/
   images:
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:570d25f81221b0726d93ce8a6b9b1c284033f034ceb35244bd78d65945193637
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:f80c886cf610e4aa200b5eeba6bb0b0f95bbc319567b25e90289864d799cf024
