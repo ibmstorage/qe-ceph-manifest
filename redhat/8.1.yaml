@@ -20,12 +20,12 @@ rc:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
-    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8-1768447281
-    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:8-1768446385
-    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1768446220
-    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:8-1768446355
-    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:8-1768445766
-    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:8-1768445891
+    ceph-base: quay.io/rhceph-ci/rhceph:v8.1-ac471957c232dd1457f5f7ab78e600bc15925093
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier:v8.1-399b6c2993cb6c2e2c1ac5a56d23ba07481e386b
+    haproxy_image: quay.io/rhceph-ci/haproxy:v8.1-5036fa4bc2ffe21475dacff4c78f849aa7e8c5e6
+    promtail_image: quay.io/rhceph-ci/promtail:v8.1-59396bb2d346d88a464fc1e3906fa76484b4e8df
+    grafana_image: quay.io/rhceph-ci/grafana:v8.1-25fe3bf533c7a6dd07f99f9bd7eccd153aa6242e
+    keepalived_image: quay.io/rhceph-ci/keepalived:v8.1-109089e8a04be0e6e36efc88a4cc3bd21fca703f
 stable:
   version: 19.2.1-307
   repositories:
