@@ -9,7 +9,7 @@ nightly:
     promtail_image: quay.io/rhceph-ci/promtail@sha256:95b066823621a4749d437f25b30ac685333bdc37850b84d7713790398c7829b7
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:e862b5b76da02e77c1d10eea017ea1927f56358a461d26bcf417fa8e571395e7
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:7f7348b8e1d02677bead3c4a993a5293fb72d33ddd8819556127f802c5c48ccd
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:da1d0e797c93226ee8dec3e47eaaf7e4fcc86437291148c6c56bee01c5c63232
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:88f7117573923f6b44ea71e18dcf4811ce41965a067eff534fbdd5ed7a943599
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:3d57888528c245df4808740d2dfe6697c6a74b4b9c582e966d14c5a713f302c4
 rc:
   version: 18.2.1-361
