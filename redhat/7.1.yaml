@@ -6,7 +6,7 @@ nightly:
       rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20260109.ci.0
   images:
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:819a5158284847779cc90a74245d84eadff386aa91c474740088f554db98c485
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:95b066823621a4749d437f25b30ac685333bdc37850b84d7713790398c7829b7
+    promtail_image: quay.io/rhceph-ci/promtail@sha256:79e498aff061c2ba66745d58b07f0788a9c81caf2c7a376387437038269d53e2
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:7272a07a84b2720d36b9069ef809b8660348daf24b23e033db0ed2187ddc6e65
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:3a524d7d965a2fe360a1c2d1267915361ec2290f9d358b9cc11d18fe133ea9f7
     grafana_image: quay.io/rhceph-ci/grafana@sha256:88f7117573923f6b44ea71e18dcf4811ce41965a067eff534fbdd5ed7a943599
