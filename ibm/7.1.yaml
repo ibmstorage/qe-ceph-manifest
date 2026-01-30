@@ -137,7 +137,7 @@ nightly:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-379/
   images:
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-10435
-    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-8932.20251217123231.2b76631
+    grafana_image: cp.cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-10683
     haproxy_image: cp.cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-10686
     keepalived_image: cp.cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-10689
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
