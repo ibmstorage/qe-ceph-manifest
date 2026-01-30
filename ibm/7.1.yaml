@@ -139,7 +139,7 @@ nightly:
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-10435
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-8932.20251217123231.2b76631
     haproxy_image: cp.cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-10686
-    keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-8934.20251217122722.f66dda8
+    keepalived_image: cp.
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
     nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v7.1-10651
     nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v7.1-10653
