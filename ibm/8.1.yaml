@@ -9,7 +9,7 @@ nightly:
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-10398
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-10411
     grafana_image: cp.
-    haproxy_image: cp.
+    haproxy_image: cp.cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-10644
     keepalived_image: cp.cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-10643
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
