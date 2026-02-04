@@ -23,7 +23,7 @@ nightly:
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.0-10668
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.0-10667
-    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-9768
+    snmp_gateway_image: cp.
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.0-10665
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-8346.20251208083810.d13df4a
 stable:
