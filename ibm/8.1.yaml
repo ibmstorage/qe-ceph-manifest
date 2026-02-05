@@ -8,21 +8,21 @@ nightly:
   images:
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-10679
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-10676
-    grafana_image: cp.cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-10851
-    haproxy_image: cp.cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-10848
-    keepalived_image: cp.cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-10847
+    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-10646
+    haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-10644
+    keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-10619
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
-    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-10849
-    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-10858
+    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-10678
+    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-10694
     oauth2_proxy_image: cp.stg.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v7.6.0-41
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
-    promtail_image: cp.cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-10855
+    promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-10647
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-10681
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-10677
-    snmp_gateway_image: cp.cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-10850
+    snmp_gateway_image: cp.cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-10648
 rc:
   version: 19.2.1-329
   repositories:
