@@ -1,3 +1,4 @@
+---
 nightly:
   version: 19.2.1-329
   repositories:
@@ -6,47 +7,48 @@ nightly:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-329/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:cb026a7e3a057c81eeee12100c80b88276a4a006a1696b710bffa7ab74e12936
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:d9baede44f5ff037ada956994f98fd2c0741cc8d5e67e202169c08a35edf8258
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:9b388ac3eaa9279441559e69d6ae814700e2223f15374710cae6a30929e61c71
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:a8fc2d26c6535d0ea7afa08b864c4554701e61b5a7d3e1273ff45e60a47c4ce3
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:9db18e6f2fed41f8dcc61c00ad0521b4529d2b239522fcfa3c8daea5ea55cf08
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:55129570a0ae4a700c8e7298de20081cbd2fbcb481e6a27096684a0edc74e7eb
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8-1770291447
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:8-1770282229
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1770281902
+    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:8-1770281874
+    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:8-1770282258
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:8-1770281883
+
 rc:
   version: 19.2.1-329
   repositories:
     default:
-      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-8.1-RHEL-9-20260130.0/RHCEPH-8.1-RHEL-9-20260130.0.repo
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20260204.ci.0
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-329/
   images:
-    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8-1769771102
-    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:8-1769789591
-    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1769781233
-    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:8-1769781571
-    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:8-1769780487
-    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:8-1769781086
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8-1770291447
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:8-1770282229
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1770281902
+    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:8-1770281874
+    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:8-1770282258
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:8-1770281883
+
 stable:
-  version: 19.2.1-307
+  version: 19.2.1-329
   repositories:
     default:
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20260101.ci.0
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20260204.ci.0
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-307/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-329/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:2c5626795bc9c904b932371695a110284739e2986f1a1f80c545283d9a7dcab2
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:7f9eb1dba9ff29e95a31d75a54a57d9ae687553464f70f5bb6346c84dc076761
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:704e75c88a81598c91d7ba10870db2fcbbd522afa1d0505345a673300a6f379e
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:f3c3cde8325a7cc71532c963d6d573e25fb709307f009103f75a51d055abec20
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:76d19500a90336fb3349621edc3bdeca74240dc2c73a7ba82e5f664334edb64e
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:a2e2f0a8ac97b8c621a30365d136357cbd3c9b4edb787f6cf54070c0f4eb925c
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8-1770291447
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:8-1770282229
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1770281902
+    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:8-1770281874
+    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:8-1770282258
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:8-1770281883
+
 released:
   version: 19.2.1-292
   repo_ids:
     rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
   repositories:
-    default:
-      rhel-9: https://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20251130.ci.0
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
@@ -57,6 +59,7 @@ released:
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1765189394
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1765174449
     oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.6.0-41
+
 z4:
   version: 19.2.1-292
   repo_ids:
@@ -72,6 +75,7 @@ z4:
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1765189394
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1765174449
     oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.6.0-41
+
 z3:
   version: 19.2.1-274
   repo_ids:
@@ -87,6 +91,7 @@ z3:
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-134
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-51
     oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.6.0-41
+
 z2:
   version: 19.2.1-245
   repo_ids:
