@@ -8,7 +8,7 @@ nightly:
   images:
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-10852
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-10853
-    grafana_image: cp.cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-10938
+    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-10864
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-10848
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-10847
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
@@ -19,7 +19,7 @@ nightly:
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
-    promtail_image: cp.cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-10933
+    promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-10855
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-10859
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-10854
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-10850
