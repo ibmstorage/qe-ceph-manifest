@@ -4,6 +4,9 @@ nightly:
     default:
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20260108.ci.3
       rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20260109.ci.0
+    eu-de:
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel9/
   images:
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:56fdcd715fc04aef2764b004d21aeb7f1692c7ecf78756e115bdf5a110ee1d83
     promtail_image: quay.io/rhceph-ci/promtail@sha256:79e498aff061c2ba66745d58b07f0788a9c81caf2c7a376387437038269d53e2
