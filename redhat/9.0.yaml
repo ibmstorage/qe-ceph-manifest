@@ -8,12 +8,12 @@ nightly:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-153/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-153/
   images:
-    ceph-base: registry.stage.redhat.io/rhceph/rhceph-9-rhel9:9-1769073443
-    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel10:9-1769062137
-    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:9-1769061786
-    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel10:9-1769079233
-    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel10:9-1769062420
-    alloy_image: registry.stage.redhat.io/rhceph/alloy-rhel10:9-1769085254
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:7e3305ba7f8585ab5a757e0bda1c6e8217676d406347d0212f868d6e5b62cad9
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:2a8008d101d23c7e345b2347deafde122be380be5d38400c3f1872b2591d8638
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:10996e23c52ba0046e3bae26721b874ae45b329ee1c6b641e029ffd4d84b7806
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:9cb391e55ae6b18d19f3c05a0a0e08a7ca17be829e971b333e8fdedeaf436eea
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:67bd7cdbee758ad216cbe565f0b856c7b9261e619dacad90e218213b8a92e698
+    alloy_image: quay.io/rhceph-ci/alloy@sha256:9bdaa8312a80c14b8a63f006db33c16b7b40f938e90db2366f43e3d7c9bcb403
 rc:
   version: 20.1.0-144
   repositories:
