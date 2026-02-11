@@ -6,8 +6,8 @@ rc:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-8.repo
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/8/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/8/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-5-rhel8:5-38
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202412170201.p0.g72ceaef.assembly.stream.el8
@@ -25,8 +25,8 @@ released:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-8.repo
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/8/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/8/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-5-rhel8:5-38
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202412170201.p0.g72ceaef.assembly.stream.el8
@@ -44,8 +44,8 @@ z8:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-8.repo
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-5-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/8/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/8/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/5/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-5-rhel8:5-38
     prometheus_image: cp.icr.io/cp/ibm-ceph/prometheus:v4.12.0-202412170201.p0.g72ceaef.assembly.stream.el8

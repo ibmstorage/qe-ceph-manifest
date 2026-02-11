@@ -6,8 +6,8 @@ rc:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/6/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-6-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/9/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/9/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-45
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-50
@@ -26,8 +26,8 @@ released:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/6/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-6-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/9/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/9/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-45
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-50
@@ -46,8 +46,8 @@ z9:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/6/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-6-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/9/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/9/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-45
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-50
@@ -66,8 +66,8 @@ z6:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/6/rhel8/x86_64/
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-6-rhel-9.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/9/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/9/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-24
     # custom-images belong to z9, z6 data is unavailable
