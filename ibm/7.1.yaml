@@ -1,4 +1,3 @@
----
 rc:
   version: 18.2.1-381
   repositories:
@@ -10,18 +9,17 @@ rc:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-381/
   images:
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-11033
-    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-11015
+    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-11067
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-11020
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-11016
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
-    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v7.1-10651
-    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v7.1-10653
+    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v7.1-11065
+    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v7.1-11054
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v7.1-11018
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v7.1-11017
-
 released:
   version: 18.2.1-361
   repositories:
@@ -44,7 +42,6 @@ released:
     promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v7.1-8445.20251209080955.6141ecd
     nvmeof_image: cp.icr.io/cp/ibm-ceph/nvmeof-rhel9:1.2.20-29
     nvmeof_cli_image: cp.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:1.2.20-25
-
 z8:
   version: 18.2.1-361
   repositories:
@@ -67,7 +64,6 @@ z8:
     promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v7.1-8445.20251209080955.6141ecd
     nvmeof_image: cp.icr.io/cp/ibm-ceph/nvmeof-rhel9:1.2.20-29
     nvmeof_cli_image: cp.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:1.2.20-25
-
 z2:
   version: 18.2.1-262
   repositories:
@@ -90,7 +86,6 @@ z2:
     promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v3.0.0-7
     nvmeof_image: cp.icr.io/cp/ibm-ceph/nvmeof-rhel9:1.2.16-27
     nvmeof_cli_image: cp.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:1.2.16-10
-
 z1:
   version: 18.2.1-229
   repositories:
@@ -113,7 +108,6 @@ z1:
     promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v2.4.0-34
     nvmeof_image: cp.icr.io/cp/ibm-ceph/nvmeof-rhel9:1.2.16-8
     nvmeof_cli_image: cp.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:1.2.16-8
-
 z0:
   version: 18.2.1-194
   repositories:
@@ -136,7 +130,6 @@ z0:
     promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v2.4.0-28
     nvmeof_image: cp.icr.io/cp/ibm-ceph/nvmeof-rhel9:1.2.13-4
     nvmeof_cli_image: cp.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:1.2.13-4
-
 nightly:
   version: 18.2.1-381
   repositories:
@@ -148,12 +141,12 @@ nightly:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-381/
   images:
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-11033
-    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-11015
+    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-11067
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-11020
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-11016
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
-    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v7.1-10651
-    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v7.1-10653
+    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v7.1-11065
+    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v7.1-11054
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
