@@ -1,5 +1,5 @@
 z2:
-  version: 	18.2.0-192
+  version: 18.2.0-192
   repositories:
     default:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
@@ -15,7 +15,7 @@ z2:
     snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-59
     promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v2.4.0-21
 released:
-  version: 	18.2.0-192
+  version: 18.2.0-192
   repositories:
     default:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
