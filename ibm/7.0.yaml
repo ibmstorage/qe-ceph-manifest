@@ -1,0 +1,32 @@
+z2:
+  version: 	18.2.0-192
+  repositories:
+    default:
+      rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
+    eu-de:
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
+  images:
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:7-40
+    grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel9:9.4.12-11
+    haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-14
+    keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-13
+    snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-59
+    promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v2.4.0-21
+released:
+  version: 	18.2.0-192
+  repositories:
+    default:
+      rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/x86_64/
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
+    eu-de:
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
+  images:
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:7-40
+    grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel9:9.4.12-11
+    haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-14
+    keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-13
+    snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:1.2.1-59
+    promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v2.4.0-21
