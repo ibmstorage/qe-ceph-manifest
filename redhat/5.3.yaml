@@ -1,7 +1,7 @@
 rc:
   version: 16.2.10-275
   repositories:
-    default:
+    default: null
     rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-5.3-rhel-9/RHCEPH-5.3-RHEL-9-20250206.ci.1
     rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-5.3-rhel-8/RHCEPH-5.3-RHEL-8-20250206.ci.2
     eu-de:
@@ -14,11 +14,10 @@ rc:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
-
 released:
   version: 16.2.10-275
   repositories:
-    default:
+    default: null
     rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-5.3-rhel-9/RHCEPH-5.3-RHEL-9-20250206.ci.1
     rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-5.3-rhel-8/RHCEPH-5.3-RHEL-8-20250206.ci.2
     eu-de:
@@ -31,4 +30,10 @@ released:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
-  
+nightly:
+  images:
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:977d23ea2abc24d101a632ac4abb0ce7cc15413b374a2a6af850cc37e7dd13a6
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:cc5ae270fc6ef8097b8d2f3d591e069a299e35694b69624aada80ef3312d417f
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:3e6e55bf6791c5dadbee92c225e3f9f80f237461d70c1d3540958c394f9f66c6
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:c8b3589ac5b75a7299a1937e23458ac53a5ab1a4adb7c7af2d236b05b3b834ab
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:178b53a213cbd29173c21657eb58b9e8af94d5a3cd192b03ccf5ca3106b5c7dd
