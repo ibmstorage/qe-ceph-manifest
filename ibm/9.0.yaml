@@ -1,3 +1,4 @@
+---
 nightly:
   version: 20.1.0-155
   repositories:
@@ -26,6 +27,7 @@ nightly:
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-10905
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.0-11090
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-8346.20251208083810.d13df4a
+
 stable:
   version: 20.1.0-144
   repositories:
@@ -54,6 +56,7 @@ stable:
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-9768
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.0-9843
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-8346.20251208083810.d13df4a
+
 rc:
   version: 20.1.0-155
   repositories:
@@ -82,6 +85,7 @@ rc:
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-10905
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.0-11090
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-8346.20251208083810.d13df4a
+
 z0:
   version: 20.1.0-145
   repositories:
@@ -93,7 +97,7 @@ z0:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/ibm/9/rhel10/
   images:
     alloy_image: cp.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-9854
-    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-10148
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-10417
     grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-9767
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:v9.0-9789
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.0-9785
@@ -110,6 +114,7 @@ z0:
     snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.0-9768
     crimson_image: cp.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.0-9843
     promtail_image: cp.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-8346.20251208083810.d13df4a
+
 released:
   version: 20.1.0-145
   repositories:
@@ -121,7 +126,7 @@ released:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/ibm/9/rhel10/
   images:
     alloy_image: cp.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-9854
-    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-10148
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-10417
     grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-9767
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:v9.0-9789
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.0-9785
