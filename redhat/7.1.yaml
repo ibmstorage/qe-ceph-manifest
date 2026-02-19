@@ -9,12 +9,11 @@ nightly:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel8/18.2.1-381/
   images:
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:bcc3ee6bbe7fac9677e0a5d6ccd5f12cd065bec74e71ddb017907ae5903b2159
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:bfd4c16fabffecc966b98c3d2e94f7023274c22662a169ea862f50cadde92b20
+    promtail_image: quay.io/rhceph-ci/promtail@sha256:4a095c606f9447eb39a064095812cecf02a5aec436634d204a20322002de7868
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:bb67e36d9c76a3695b611540d026e77d623f1361747d6776a298ab69ca2fc410
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:5b04d590d5eb8c33b3dc92fc94b8be3bf7d0b6c7e37f5a17450273b3f500b849
     grafana_image: quay.io/rhceph-ci/grafana@sha256:a8f480471f5e7f00458cf82651ed99971f9da0485b746defbc794c26f4aae720
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:9eca0700dfbcd9ef43ce2641743be63f4778167dd07cbdffec6e3fae40151220
-
 rc:
   version: 18.2.1-381
   repositories:
@@ -34,7 +33,6 @@ rc:
     keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:7-1770650099
     snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:7-1770642181
     promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:7-1770649294
-
 released:
   version: 18.2.1-381
   repositories:
@@ -54,7 +52,6 @@ released:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:7-1770650099
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:7-1770642181
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:7-1770649294
-
 z9:
   version: 18.2.1-381
   repositories:
@@ -74,7 +71,6 @@ z9:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:7-1770650099
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:7-1770642181
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:7-1770649294
-
 z8:
   version: 18.2.1-361
   repositories:
@@ -91,7 +87,6 @@ z8:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:7-1769514555
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:7-1769512818
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:7-1769513068
-
 z7:
   version: 18.2.1-340
   repo_ids:
@@ -108,7 +103,6 @@ z7:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-76
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-126
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-43
-
 z2:
   version: 18.2.1-262
   repo_ids:
@@ -125,7 +119,6 @@ z2:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-34
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-84
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-7
-
 z1:
   version: 18.2.1-229
   repo_ids:
@@ -142,7 +135,6 @@ z1:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-26
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-76
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-34
-
 z0:
   version: 18.2.1-194
   repo_ids:
