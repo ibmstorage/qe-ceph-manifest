@@ -52,7 +52,7 @@ released:
     rhel-9: rhceph-9-tools-for-rhel-9-x86_64-rpms
     rhel-10: rhceph-9-tools-for-rhel-10-x86_64-rpms
   repositories:
-    defaults:
+    default:
       rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260112.0/RHCEPH-9.0-RHEL-9-20260112.0.repo
       rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260112.0/RHCEPH-9.0-RHEL-10-20260112.0.repo
     eu-de:
@@ -71,7 +71,7 @@ z0:
     rhel-9: rhceph-9-tools-for-rhel-9-x86_64-rpms
     rhel-10: rhceph-9-tools-for-rhel-10-x86_64-rpms
   repositories:
-    defaults:
+    default:
       rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260112.0/RHCEPH-9.0-RHEL-9-20260112.0.repo
       rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260112.0/RHCEPH-9.0-RHEL-10-20260112.0.repo
     eu-de:
