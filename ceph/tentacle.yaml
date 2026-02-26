@@ -10,7 +10,7 @@ nightly:
     nvmeof-cli: quay.io/ceph/nvmeof-cli:1.1.0
 
 rocky10:
-  version: 20.2.0-794
+  version: 20.3.0-5580
   repositories:
     default:
       rocky-10: https://3.chacra.ceph.com/repos/ceph/wip-rocky10-branch-of-the-day-2026-02-24-1771941190/506b402a3d3a240d0bfe073b4769eaffdf84497b/rocky/10/flavors/default/repo
