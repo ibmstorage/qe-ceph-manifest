@@ -14,57 +14,81 @@ nightly:
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:a30fa0a9a60b6836f0e8f36d3e7654f617309501abc2c89d1ffb1e6d8d39ded6
     grafana_image: quay.io/rhceph-ci/grafana@sha256:4039b9bc1341a8d68da50c2406b253052d8df26cc729f10213fb6be79aa464cc
     alloy_image: quay.io/rhceph-ci/alloy@sha256:48d7e0bf3c4a455e4ef20b81ee9acf41d75f075607c4a436900af149f785e903
+
 rc:
   version: 20.1.0-159
   repositories:
     default:
-      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260220.0/RHCEPH-9.0-RHEL-10-20260220.0.repo
-      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260220.0/RHCEPH-9.0-RHEL-9-20260220.0.repo
+      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260224.0/RHCEPH-9.0-RHEL-10-20260224.0.repo
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260224.0/RHCEPH-9.0-RHEL-9-20260224.0.repo
     eu-de:
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-159/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-159/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel9/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel10/
   images:
-    ceph-base: registry.stage.redhat.io/rhceph/rhceph-9-rhel9:9-1771816028
-    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel10:9-1771399060
-    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:9-1771398877
-    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel10:9-1771399022
-    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel10:9-1771399331
-    alloy_image: registry.stage.redhat.io/rhceph/alloy-rhel10:9-1771399158
+    ceph-base: registry.redhat.io/rhceph/rhceph-9-rhel9:9-1771816028
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel10:9-1771399060
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:9-1771398877
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel10:9-1771399022
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel10:9-1771399331
+    alloy_image: registry.redhat.io/rhceph/alloy-rhel10:9-1771399158
+
 stable:
-  version: 20.1.0-155
+  version: 20.1.0-159
   repositories:
     default:
-      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260210.0/RHCEPH-9.0-RHEL-10-20260210.0.repo
-      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260210.0/RHCEPH-9.0-RHEL-9-20260210.0.repo
+      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260224.0/RHCEPH-9.0-RHEL-10-20260224.0.repo
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260224.0/RHCEPH-9.0-RHEL-9-20260224.0.repo
     eu-de:
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-155/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-155/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel9/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel10/
   images:
-    ceph-base: registry.stage.redhat.io/rhceph/rhceph-9-rhel9:9-1770722854
-    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel10:9-1770623930
-    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:9-1770623709
-    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel10:9-1770640132
-    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel10:9-1770624011
-    alloy_image: registry.stage.redhat.io/rhceph/alloy-rhel10:9-1770623922
+    ceph-base: registry.redhat.io/rhceph/rhceph-9-rhel9:9-1771816028
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel10:9-1771399060
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:9-1771398877
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel10:9-1771399022
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel10:9-1771399331
+    alloy_image: registry.redhat.io/rhceph/alloy-rhel10:9-1771399158
+
 released:
-  version: 20.1.0-144
+  version: 20.1.0-159
   repo_ids:
     rhel-9: rhceph-9-tools-for-rhel-9-x86_64-rpms
     rhel-10: rhceph-9-tools-for-rhel-10-x86_64-rpms
   repositories:
     default:
-      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260112.0/RHCEPH-9.0-RHEL-9-20260112.0.repo
-      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260112.0/RHCEPH-9.0-RHEL-10-20260112.0.repo
+      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260224.0/RHCEPH-9.0-RHEL-10-20260224.0.repo
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260224.0/RHCEPH-9.0-RHEL-9-20260224.0.repo
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel9/
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel10/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-9-rhel9:9-1769073443
-    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel10:9-1769062137
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:9-1769061786
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel10:9-1769079233
-    grafana_image: registry.redhat.io/rhceph/grafana-rhel10:9-1769062420
-    alloy_image: registry.redhat.io/rhceph/alloy-rhel10:9-1769085254
+    ceph-base: registry.redhat.io/rhceph/rhceph-9-rhel9:9-1771816028
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel10:9-1771399060
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:9-1771398877
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel10:9-1771399022
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel10:9-1771399331
+    alloy_image: registry.redhat.io/rhceph/alloy-rhel10:9-1771399158
+
+z1:
+  version: 20.1.0-159
+  repo_ids:
+    rhel-9: rhceph-9-tools-for-rhel-9-x86_64-rpms
+    rhel-10: rhceph-9-tools-for-rhel-10-x86_64-rpms
+  repositories:
+    default:
+      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260224.0/RHCEPH-9.0-RHEL-10-20260224.0.repo
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260224.0/RHCEPH-9.0-RHEL-9-20260224.0.repo
+    eu-de:
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel9/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel10/
+  images:
+    ceph-base: registry.redhat.io/rhceph/rhceph-9-rhel9:9-1771816028
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel10:9-1771399060
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:9-1771398877
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel10:9-1771399022
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel10:9-1771399331
+    alloy_image: registry.redhat.io/rhceph/alloy-rhel10:9-1771399158
+
 z0:
   version: 20.1.0-144
   repo_ids:
