@@ -32,7 +32,7 @@ released:
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
 nightly:
   images:
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:f6799515c45ff15e6a9ca3293ea48625292fa5e6e1890e688e6c0cf59076c395
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:364245e1746be0d4aa6e7b6001c1625be4138eb80d0ddb5db6b9c81a76392de9
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:78a193fc6ee95c2d9a385b1c4b01e672b212e706de5e1aed8ed002e029eff2fe
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:10e9bbf026f9c539688cbfba3e2f1ae29507dbfcef8b9be4ee3f113efab39f66
     grafana_image: quay.io/rhceph-ci/grafana@sha256:7da361f5ad70a49dc82714b83e93b7b1f5abd912458bfb2857bb64f12eb77211
