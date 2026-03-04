@@ -10,13 +10,13 @@ nightly:
     nvmeof-cli: quay.io/ceph/nvmeof-cli:1.1.0
 
 rocky10:
-  version: 20.3.0-5580
+  version: 20.3.0-5801
   repositories:
     default:
-      rocky-10: https://3.chacra.ceph.com/repos/ceph/wip-rocky10-branch-of-the-day-2026-02-24-1771941190/506b402a3d3a240d0bfe073b4769eaffdf84497b/rocky/10/flavors/default/repo
-      rhel-10: https://3.chacra.ceph.com/repos/ceph/wip-rocky10-branch-of-the-day-2026-02-24-1771941190/506b402a3d3a240d0bfe073b4769eaffdf84497b/rocky/10/flavors/default/repo
+      rocky-10: https://1.chacra.ceph.com/repos/ceph/wip-rocky10-branch-of-the-day-2026-03-03-1772558532/d380edd3c17d1eea2d4e59c38aa96dc8cc1e14f7/rocky/10/flavors/default/repo
+      rhel-10: https://1.chacra.ceph.com/repos/ceph/wip-rocky10-branch-of-the-day-2026-03-03-1772558532/d380edd3c17d1eea2d4e59c38aa96dc8cc1e14f7/rocky/10/flavors/default/repo
   images:
-    ceph-base: quay.ceph.io/ceph-ci/ceph:wip-rocky10-branch-of-the-day-2026-02-24-1771941190-rockylinux-10-x86_64-devel
+    ceph-base: quay.ceph.io/ceph-ci/ceph:wip-rocky10-branch-of-the-day-2026-03-03-1772558532-rockylinux-10-x86_64-devel
     nvmeof: quay.io/ceph/nvmeof:latest
     nvmeof-cli: quay.io/ceph/nvmeof-cli:latest
 
