@@ -8,7 +8,7 @@ nightly:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.1-35/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.2.1-35/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:b35a49fd042538d1284f95c2eafeb3b73eb9c14edeae66b9e3828c0a2ac979d0
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:12698febc931e2c1c1b1a4c406487b783917fc50bbeb3d470564b0543ae09618
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:cc634dcb23f1cb0022ea2be9cda9aa9efe94227a2b6d94551caa566c8a8ba649
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:0702bec52994c10e9b07b608511bbf7e3b31b106a028ed0462c9ec9c91853f74
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:894d9eb4454c91b5a301cac5564c77eda54773a529dcb422ffb5049be59ea7da
