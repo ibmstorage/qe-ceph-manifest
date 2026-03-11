@@ -13,4 +13,3 @@ nightly:
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:0702bec52994c10e9b07b608511bbf7e3b31b106a028ed0462c9ec9c91853f74
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:894d9eb4454c91b5a301cac5564c77eda54773a529dcb422ffb5049be59ea7da
     grafana_image: quay.io/rhceph-ci/grafana@sha256:6a731fff7d9251f0b1a654bab23b5efc2eb87310398ec4ea327de1dc4c02f388
-    alloy_image: quay.io/rhceph-ci/alloy@sha256:c57319652e6c610456baa6cba42497e94bd4fde06115f648d7aa9d0ef5d14cee
