@@ -160,5 +160,5 @@ nightly:
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:e32a66066c334d0b78d04d0b6cc9f606795a1331f292d55cfb0a9a61107083df
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:764ead350f46a739dbbb78e6b774bf658ce919b922e4b870daa3e076a5f76ed1
     promtail_image: quay.io/rhceph-ci/promtail@sha256:3ea69c24bbc00b829d2e150b3b89889ba7c9c696a17c1d61d8914691a396b97b
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:30afe90994f3cee1e7eee7e3a0dda75251dacb50845a5d5c7fb9c5b559e793fd
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:58565275a19a25c027f820f02d4af625e21502c46eaff092ebd2badcdeef5f61
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:5b184e9930b3c3c385112399dab3ec44d7ac1426fc9457d28cc2461d79875294
