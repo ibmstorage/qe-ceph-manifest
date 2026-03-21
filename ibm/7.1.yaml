@@ -182,7 +182,7 @@ nightly:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-381/
   images:
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-13154
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-13271
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-11067
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-11020
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-11016
