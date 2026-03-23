@@ -27,10 +27,10 @@ rc:
       rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-7.1-RHEL-9-20260210.0/RHCEPH-7.1-RHEL-9-20260210.0.repo
       rhel-8: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-7.1-RHEL-8-20260210.0/RHCEPH-7.1-RHEL-8-20260210.0.repo
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel8/18.2.1-381
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel9/18.2.1-381
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7-1770632724
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-7-rhel9:7-1774002145
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:7-1770708805
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:7-1770649398
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:7-1770650099
