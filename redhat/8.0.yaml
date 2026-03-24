@@ -2,6 +2,8 @@
 stable:
   version: 19.2.0-139
   repositories:
+    default:
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.0-rhel-9/RHCEPH-8.0-RHEL-9-20250603.ci.0
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   repo_ids:
@@ -13,10 +15,11 @@ stable:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-60
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-110
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-29
-
 rc:
   version: 19.2.0-139
   repositories:
+    default:
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.0-rhel-9/RHCEPH-8.0-RHEL-9-20250603.ci.0
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   repo_ids:
@@ -28,10 +31,11 @@ rc:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-60
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-110
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-29
-
 released:
   version: 19.2.0-139
   repositories:
+    default:
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.0-rhel-9/RHCEPH-8.0-RHEL-9-20250603.ci.0
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   repo_ids:
@@ -43,10 +47,11 @@ released:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-60
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-110
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.0.0-29
-
 z5:
   version: 19.2.0-139
   repositories:
+    default:
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.0-rhel-9/RHCEPH-8.0-RHEL-9-20250603.ci.0
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   repo_ids:
