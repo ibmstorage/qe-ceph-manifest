@@ -40,9 +40,8 @@ released:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel9
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-356
-    grafana_image: registry.redhat.io/rhceph/rhceph-6-dashboard-rhel9:6-112
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-50
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
-    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
-    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
+    ceph-base: registry.redhat.io/rhceph/rhceph-5-rhel8:5-536
+    grafana_image: registry.redhat.io/rhceph/rhceph-5-dashboard-rhel8:5-98
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel8:2.2.19-46
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel8:2.1.5-45
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel8:1.2.1-89
