@@ -12,7 +12,7 @@ nightly:
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:5748efc75fec1b09bc3b3550949316b58e6af128effa0dafb56de786870a45ff
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:62379d127b9b24562d1f878016fe6482a941459976fbab554f47ebecd0690474
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:9bdbc1780a7f654f13d69d6e6eefd068e63272dd90165449124b49c1caa7829d
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:6a731fff7d9251f0b1a654bab23b5efc2eb87310398ec4ea327de1dc4c02f388
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:fd9d0713e9d39fbdffd9e21234b2bd1df6a6e3d96a8f3108c068f35d01b153f1
     alloy_image: quay.io/rhceph-ci/alloy@sha256:04e6f038f29232da0e5d6af7871ad607104647b2412cbdcf4167d645d5e24ce6
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:625d72966496b05f627666cc0a49bb3cf23ca1bfe82c3e3bf58effa532a36106
 stable:
