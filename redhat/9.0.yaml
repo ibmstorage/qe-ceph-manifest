@@ -14,6 +14,7 @@ nightly:
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:5de9863ba475db2683e88205d8399fd8be9176dbaca067cbf4677c1c92ee74fd
     grafana_image: quay.io/rhceph-ci/grafana@sha256:a97dbf32d9ecd33e86e1050a5ec650c2f13bbe02b3dab5950b8f9a4e8603ec6e
     alloy_image: quay.io/rhceph-ci/alloy@sha256:05b29496a38cc001da23d18cb4c7fafa9cefe9385f4723e59fa64502870cf47f
+    oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:4eaa92e9e6739bf5e3f4f13a0d6b15b8fb5b2a83ed0c393030a98bd856e9a9a5
 stable:
   version: 20.1.0-174
   repositories:
