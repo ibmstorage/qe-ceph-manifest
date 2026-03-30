@@ -59,8 +59,8 @@ rc:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202603240543.ci.0/IBM-CEPH-9.0-202603240543.ci.0-rhel9.repo
       rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.0-202603240543.ci.0/IBM-CEPH-9.0-202603240543.ci.0-rhel10.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.1.0-159/
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.1.0-159/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/9/rhel9/20.1.0-159/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/ibm/9/rhel10/20.1.0-159/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-10728
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-13392
@@ -90,7 +90,7 @@ released:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/ibm/9/rhel10/
   images:
     alloy_image: cp.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-10728
-    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-11357
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-13392
     grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-10908
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:v9.0-10911
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.0-10907
@@ -117,7 +117,7 @@ z1:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/ibm/9/rhel10/
   images:
     alloy_image: cp.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-10728
-    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-11357
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-13392
     grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-10908
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:v9.0-10911
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.0-10907
