@@ -13,22 +13,21 @@ nightly:
     promtail_image: quay.io/rhceph-ci/promtail@sha256:25b0f2160febcac833f319f96a0c20fc578e7dd93b5610421e9ae9dcc67fb7e4
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:6aa0153ff48ce9f1b86a38a5cab25cccbf0c12db4ce94a9d8f04eb8fa2b1f3a1
 stable:
-  version: 19.2.1-331
+  version: 19.2.1-340
   repo_ids:
     rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
   repositories:
     default:
-      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-8.1-RHEL-9-20260209.0/RHCEPH-8.1-RHEL-9-20260209.0.repo
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20260327.ci.3
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-340/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-1770630907
-    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1770632233
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1770631713
-    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1770631941
-    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:8-1770630607
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:8-1770632172
-    oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.6.0-41
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:464a95ad4556969f5a8b99ee2f49cd51953bc6aec54cdfaae68d867b2c7550e6
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:6a20a759d06124483a6b71472fbcb0e66fb89eec6f838b2e26a5fad9b03b10e2
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:99caa158c3d5f15a50bb654f5e9511e592513729e2d5a5b1aa9c82a8b294dd9a
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:d8d8e3cfceb29d5d3e46cd7a0f70ac8c24c0c8af34d7960063bfb6ce4cf5b06d
+    promtail_image: quay.io/rhceph-ci/promtail@sha256:25b0f2160febcac833f319f96a0c20fc578e7dd93b5610421e9ae9dcc67fb7e4
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:6aa0153ff48ce9f1b86a38a5cab25cccbf0c12db4ce94a9d8f04eb8fa2b1f3a1
 rc:
   version: 19.2.1-331
   repo_ids:
