@@ -35,9 +35,10 @@ stable:
 ubi10:
   version: 20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260324_1838
   repositories:
+    default:
+      rhel-10: https://brew-task-repos.engineering.redhat.com/repos/scratch/ceph-build/ceph/20.2.1/102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260324_1838.el10cp/ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260324_1838.el10cp-scratch.repo
     eu-de:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.1-102/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.2.1-102/
   images:
     ceph-base: quay.io/rhceph-ci/rhceph:on-pr-v9.1-ubi10-41cf18eeb55ad9d77fd03e022ed3488821817ce2
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:5748efc75fec1b09bc3b3550949316b58e6af128effa0dafb56de786870a45ff
