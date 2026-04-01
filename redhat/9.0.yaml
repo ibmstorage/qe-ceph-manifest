@@ -38,8 +38,8 @@ rc:
       rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260224.0/RHCEPH-9.0-RHEL-10-20260224.0.repo
       rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260224.0/RHCEPH-9.0-RHEL-9-20260224.0.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel9/
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel10/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-159/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-159/
   images:
     ceph-base: registry.stage.redhat.io/rhceph/rhceph-9-rhel9:9.0-1
     snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel10:9-1771399060
