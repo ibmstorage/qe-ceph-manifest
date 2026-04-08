@@ -36,8 +36,8 @@ rc:
   version: 20.1.0-183
   repositories:
     default:
-      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260407.0/RHCEPH-9.0-RHEL-10-20260407.0.repo
-      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260407.0/RHCEPH-9.0-RHEL-9-20260407.0.repo
+      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260408.0/RHCEPH-9.0-RHEL-10-20260408.0.repo
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260408.0/RHCEPH-9.0-RHEL-9-20260408.0.repo
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-183/
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-183/
