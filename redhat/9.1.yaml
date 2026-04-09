@@ -33,14 +33,14 @@ stable:
     alloy_image: quay.io/rhceph-ci/alloy@sha256:7bdfb5f88becbe262f9ff7f49b69aa00f2cad097fe79bbd92f9b2442add799c4
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:17358a1245f8048499112471120c7f0313f4c70192a8bb2afaaacda6cc0831e6
 ubi10:
-  version: 20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260406_1805
+  version: 20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600
   repositories:
     default:
-      rhel-10: https://brew-task-repos.engineering.redhat.com/repos/scratch/ceph-build/ceph/20.2.1/102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260406_1805.el10cp/ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260406_1805.el10cp-scratch.repo
+      rhel-10: https://brew-task-repos.engineering.redhat.com/repos/scratch/ceph-build/ceph/20.2.1/102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp/ceph-20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260408_1600.el10cp-scratch.repo
     eu-de:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.1-102.ubi10/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph:on-pr-v9.1-ubi10-490838260aeea8dd194da012988c8ed24986a0b0
+    ceph-base: quay.io/rhceph-ci/rhceph:on-pr-v9.1-ubi10-d122a641965598e4427678f8ccf03786dd6f7421
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:5748efc75fec1b09bc3b3550949316b58e6af128effa0dafb56de786870a45ff
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:62379d127b9b24562d1f878016fe6482a941459976fbab554f47ebecd0690474
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:9bdbc1780a7f654f13d69d6e6eefd068e63272dd90165449124b49c1caa7829d
