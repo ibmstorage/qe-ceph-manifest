@@ -12,7 +12,7 @@ nightly:
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:d8d8e3cfceb29d5d3e46cd7a0f70ac8c24c0c8af34d7960063bfb6ce4cf5b06d
     promtail_image: quay.io/rhceph-ci/promtail@sha256:25b0f2160febcac833f319f96a0c20fc578e7dd93b5610421e9ae9dcc67fb7e4
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:7cc942305cf313a5487bfc0a3fae11bbcc773b1f2449357dacf4c451d055d9dc
-    oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:c5cb2a5e78359fdf2f9382668d123707e254e92914f4e7dfa03450ca39217e9c
+    oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:6c2bbb7046ef1d7cf228a99c39550ee624073ca38d0c7f0eaad22e65ccbb0924
 stable:
   version: 19.2.1-348
   repositories:
