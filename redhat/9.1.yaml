@@ -1,5 +1,5 @@
 nightly:
-  version: 20.2.1-146
+  version: 20.2.1-145
   repositories:
     default:
       rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.1-rhel-10/RHCEPH-9.1-RHEL-10-20260409.ci.0
