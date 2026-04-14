@@ -11,12 +11,12 @@ rc:
     rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-356
-    grafana_image: registry.redhat.io/rhceph/rhceph-6-dashboard-rhel9:6-112
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-50
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
-    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
-    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-6-rhel9:6.1-6
+    grafana_image: registry.stage.redhat.io/rhceph/rhceph-6-dashboard-rhel9:12.2.0-3
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-1746425267
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:2.2.8-1746425331
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-1746425266
+    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:2.4.0-3
 released:
   version: 17.2.6-277
   repositories:
@@ -30,12 +30,12 @@ released:
     rhel-9: rhceph-6-tools-for-rhel-9-x86_64-rpms
     rhel-8: rhceph-6-tools-for-rhel-8-x86_64-rpms
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-356
-    grafana_image: registry.redhat.io/rhceph/rhceph-6-dashboard-rhel9:6-112
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-50
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
-    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
-    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
+    ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-357
+    grafana_image: registry.redhat.io/rhceph/rhceph-6-dashboard-rhel9:6-113
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.4.22-88
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-87
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-136
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-41
 z9:
   version: 17.2.6-277
   repositories:
