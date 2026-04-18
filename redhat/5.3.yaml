@@ -1,4 +1,4 @@
-
+---
 nightly:
   version: 16.2.10-275
   repositories:
@@ -6,14 +6,15 @@ nightly:
       rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-5.3-rhel-9/RHCEPH-5.3-RHEL-9-20250206.ci.1
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-5.3-rhel-8/RHCEPH-5.3-RHEL-8-20250206.ci.2
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/5/8/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/5/8/rhel9/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel9/
   images:
     keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel8:2.1.5-45
     ceph-base: registry.stage.redhat.io/rhceph/rhceph-5-rhel8:5-536
     snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel8:1.2.1-89
     grafana_image: registry.stage.redhat.io/rhceph/rhceph-5-dashboard-rhel8:5-98
     haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel8:2.2.19-46
+
 rc:
   version: 16.2.10-275
   repositories:
@@ -21,8 +22,8 @@ rc:
       rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-5.3-rhel-9/RHCEPH-5.3-RHEL-9-20250206.ci.1
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-5.3-rhel-8/RHCEPH-5.3-RHEL-8-20250206.ci.2
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/5/8/rhel8/16.2.10-275/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/5/8/rhel9/16.2.10-275/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel8/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel9/16.2.10-275/
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-6-rhel9:6-356
     grafana_image: registry.redhat.io/rhceph/rhceph-6-dashboard-rhel9:6-112
@@ -30,6 +31,7 @@ rc:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-48
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-98
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-37
+
 released:
   version: 16.2.10-275
   repositories:
@@ -38,7 +40,7 @@ released:
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-5.3-rhel-8/RHCEPH-5.3-RHEL-8-20250206.ci.2
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel8/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel9
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/5/8/rhel9/
   images:
     ceph-base: registry.redhat.io/rhceph/rhceph-5-rhel8:5-536
     grafana_image: registry.redhat.io/rhceph/rhceph-5-dashboard-rhel8:5-98
