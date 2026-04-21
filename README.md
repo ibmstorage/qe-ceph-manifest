@@ -67,6 +67,8 @@ Key points to remember
 - `ibm-stage` mirrors `cp.stg.icr.io` registry
 - `rh-prod` mirrors `registry.redhat.io` registry
 - `rh-stage` mirrors `registry-proxy.engineering.redhat.com` registry
-- Sections other than `nightly` and `stable` must point to the released versions.
+- `nightly` section must point to the released versions.
+- `z<x>` section must point to public facing repositories.
+- `rc | stable` should point to public facing content post release.
 
 Ensure the local Container Registry holds the necessary images.
