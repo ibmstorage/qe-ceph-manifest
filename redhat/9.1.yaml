@@ -1,11 +1,11 @@
 nightly:
-  version: 20.2.1-190
+  version: 20.2.1-191
   repositories:
     default:
-      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.1-rhel-10/RHCEPH-9.1-RHEL-10-20260421.ci.2
+      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.1-rhel-10/RHCEPH-9.1-RHEL-10-20260421.ci.3
       rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.1-rhel-9/RHCEPH-9.1-RHEL-9-20260421.ci.2
     eu-de:
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.1-190/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.1-191/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.2.1-190/
   images:
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:78479fe010fd8ddee7bcb4e5d8f73a02656d041ec044f32f23b363b7bb53056d
