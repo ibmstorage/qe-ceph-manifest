@@ -14,20 +14,20 @@ nightly:
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:dcdfbee475307866f626d15f2e7bfde6a329199487b6c430303f70a5436c9001
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:6c2bbb7046ef1d7cf228a99c39550ee624073ca38d0c7f0eaad22e65ccbb0924
 stable:
-  version: 19.2.1-348
+  version: 19.2.1-355
   repositories:
     default:
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20260402.ci.3
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-8.1-rhel-9/RHCEPH-8.1-RHEL-9-20260414.ci.0
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-348/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-355/
   images:
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:464a95ad4556969f5a8b99ee2f49cd51953bc6aec54cdfaae68d867b2c7550e6
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:6a20a759d06124483a6b71472fbcb0e66fb89eec6f838b2e26a5fad9b03b10e2
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:99caa158c3d5f15a50bb654f5e9511e592513729e2d5a5b1aa9c82a8b294dd9a
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:d8d8e3cfceb29d5d3e46cd7a0f70ac8c24c0c8af34d7960063bfb6ce4cf5b06d
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:25b0f2160febcac833f319f96a0c20fc578e7dd93b5610421e9ae9dcc67fb7e4
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:d571515fbbfedd53ec50435ee2de692a6402f78b592a1f556ae00c0cfa13584e
-    oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:c5cb2a5e78359fdf2f9382668d123707e254e92914f4e7dfa03450ca39217e9c
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:cf06680b9dd27d9f6545f7457a701daea7c5225ac6ad1d6c8023929955c4583e
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:74d46142f634dbad3b98fcf10df40b39aa1652448d6058f96dfe1e5190471a8a
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:a3bc8df1e093fd3e49da0b0f8cf4115af11c3373a7b1a02923bf8e2ddd42131d
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:08a9614295183b33bde2a93026ca5365182390e92dcc75f9b366da0d66fbcacd
+    promtail_image: quay.io/rhceph-ci/promtail@sha256:90729c2a907b6b64400e6aecc1ba52915fa11c9887dfa73e03ad37102db6aac6
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:cd3219f7bf5ddb5eb86d2c88819dbd7d42c1b2ec856afc29f4392b00dde77a3b
+    oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:6c2bbb7046ef1d7cf228a99c39550ee624073ca38d0c7f0eaad22e65ccbb0924
 rc:
   version: 19.2.1-331
   repo_ids:
