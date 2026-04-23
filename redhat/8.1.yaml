@@ -38,7 +38,7 @@ rc:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-1774002867
+    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8.1-1
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1770632233
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1770631713
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1770631941
@@ -55,7 +55,7 @@ released:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-1774002867
+    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8.1-1
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1770632233
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1770631713
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1770631941
@@ -72,7 +72,7 @@ z5:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8-1774002867
+    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8.1-1
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:8-1770632233
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:8-1770631713
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:8-1770631941
