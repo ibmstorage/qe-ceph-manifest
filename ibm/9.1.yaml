@@ -1,12 +1,12 @@
 nightly:
-  version: 20.2.1-208
+  version: 20.2.1-210
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.1-202604231118.ci.0/IBM-CEPH-9.1-202604231118.ci.0-rhel9.repo
-      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.1-202604231118.ci.0/IBM-CEPH-9.1-202604231118.ci.0-rhel10.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.1-202604240954.ci.0/IBM-CEPH-9.1-202604240954.ci.0-rhel9.repo
+      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.1-202604240954.ci.0/IBM-CEPH-9.1-202604240954.ci.0-rhel10.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.2.1-208/
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.1-208/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.2.1-210/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.1-210/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.1-11448
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.1-15375
