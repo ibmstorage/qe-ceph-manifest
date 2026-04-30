@@ -34,7 +34,6 @@ stable:
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:8d9cb21fa43a9bff3661d7583c18215fbcdef5ba3fa7ce996ec40ffd28b6c770
 ubi10:
   version: 20.2.1-223.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260429_1850
-  version: 20.2.1-102.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260427_1000
   repositories:
     default:
       rhel-10: https://brew-task-repos.engineering.redhat.com/repos/scratch/ceph-build/ceph/20.2.1/223.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260429_1850.el10cp/ceph-20.2.1-223.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260429_1850.el10cp-scratch.repo
