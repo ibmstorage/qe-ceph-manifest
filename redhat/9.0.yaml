@@ -16,16 +16,16 @@ nightly:
     alloy_image: quay.io/rhceph-ci/alloy@sha256:3b1c231c8a1de28c7bcda810c7b15c4685176ce799d68998aee16c40dcb44371
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:7c8fbbdcaecad706ca8a995b4e90cc8a83c06f39a9077550752a36bfb0c44888
 stable:
-  version: 20.1.0-194
+  version: 20.1.0-195
   repositories:
     default:
-      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.0-rhel-10/RHCEPH-9.0-RHEL-10-20260504.ci.0
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20260504.ci.0
+      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.0-rhel-10/RHCEPH-9.0-RHEL-10-20260505.ci.0
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.0-rhel-9/RHCEPH-9.0-RHEL-9-20260505.ci.1
     eu-de:
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-194/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-194/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-195/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-195/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:d6725315f5a84b1a2da186d55a3df7890d7bd85bd5cc212dcbd8629b4c784aa9
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:cdd95f88f8b82f611de0a38d63573c7ee28c0f8ca9d249d3078902632e49ec50
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:9beb6a833b2d5ca77211022cf1cd0e53a92b4af67903a5c2b030d9615643b181
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:40381e3145fcced24195df79158d5ccbda58a3ab7f62850c0a5b1c1712829407
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:76b7c9669f8fadee57c49a3e9a19f238027e4b8dd8d2f9f43997e7ddcaddd851
