@@ -17,7 +17,6 @@ rc:
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel8:2.2.19-45
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel8:2.1.5-44
     snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel8:1.2.1-88
-
 released:
   version: 16.2.10-275
   repositories:
@@ -36,7 +35,6 @@ released:
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel8:2.2.19-45
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel8:2.1.5-44
     snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel8:1.2.1-88
-
 z8:
   version: 16.2.10-275
   repositories:
@@ -55,3 +53,12 @@ z8:
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel8:2.2.19-45
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel8:2.1.5-44
     snmp_gateway_image: cp.icr.io/cp/ibm-ceph/snmp-notifier-rhel8:1.2.1-88
+nightly:
+  version: 16.2.10-275
+  repositories:
+    eu-de:
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/5/rhel8/16.2.10-275/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/5/rhel9/16.2.10-275/
+    default:
+      rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-5.3-202605081736.ci.0/IBM-CEPH-5.3-202605081736.ci.0-rhel8.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-5.3-202605081736.ci.0/IBM-CEPH-5.3-202605081736.ci.0-rhel9.repo
