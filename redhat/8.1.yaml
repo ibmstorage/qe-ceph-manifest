@@ -11,7 +11,7 @@ nightly:
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:4931ed68e7a50fda972fc50997da4dd0a3c75825f2d7eee9360428bcc21557f4
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:946a8452155be3175f0167544c75bbbc40015e9e1f4e56c8450f2be08175a033
     promtail_image: quay.io/rhceph-ci/promtail@sha256:2e69f586063677d9ec69813b9961b48516ddb30b3912cea8a1e5a2c7b0b8bc80
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:35dea8d1a7d479eea23bcec4bb5eff94f8bc80ebe03324ebdfe63808e72d9579
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:fdf55f32a5a71c929381228ece66846810c7a752cc0112d869dce1f30b599b33
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:d0f14ac452c9b1a713cb0f27db0d84b51f3f28f8094df96151ce8f2c7e9e2a4e
 stable:
   version: 19.2.1-366
@@ -34,7 +34,7 @@ rc:
     default:
       rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-8.1-RHEL-9-20260506.0/RHCEPH-8.1-RHEL-9-20260506.0.repo
     eu-de:
-      rhel-9:  http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-366/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-366/
   images:
     ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8.1-11
     snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-1746425276
