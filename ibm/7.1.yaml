@@ -44,13 +44,13 @@ rc:
   version: 18.2.1-381
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-7.1-202605081012.ci.0/IBM-CEPH-7.1-202605081012.ci.0-rhel9.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-7.1-202605111108.ci.0/IBM-CEPH-7.1-202605111108.ci.0-rhel9.repo
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-7.1-202605042110.ci.0/IBM-CEPH-7.1-202605042110.ci.0-rhel8.repo
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-381/
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel8/18.2.1-393/
   images:
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-16726
+    ceph-base:  cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-16847
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-11067
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-11020
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-11016
