@@ -167,3 +167,19 @@ z0:
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-20
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-67
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v2.4.0-28
+
+z3_belgacom_hotfix:
+  version: 18.2.1-298.1.hotfix.bz2359773
+  repositories:
+    eu-de:
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel9/18.2.1-298.bz2359773/
+  images:
+    ceph-base: registry-proxy.engineering.redhat.com/rh-osbs/rhceph:7-493.1.hotfix.bz2359773
+z9_proximus_hotfix:
+  version: 18.2.1-381
+  repositories:
+    eu-de:
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
+  images:
+    ceph-base: quay.io/rhceph-ci/rhceph:v7.1-ibmceph14312-hotfix-fbab1068125e134d07bde957f3b416f9a3ca8dec
+
