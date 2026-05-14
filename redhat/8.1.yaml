@@ -36,7 +36,7 @@ rc:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-8-rhel9:8.1-2
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8.1-15
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-1746621538
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-2
     promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.5.3-1
