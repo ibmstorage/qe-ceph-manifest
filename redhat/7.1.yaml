@@ -13,7 +13,7 @@ nightly:
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:18ca142693d977d8efbefeda7fb6fe4c6a66fa035cccafcf15ccdecb7825cc98
     promtail_image: quay.io/rhceph-ci/promtail@sha256:c366f47817949935dbf488572b76ac6982ff2f5d8fa1aca98c2c43fcf7d285e7
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:56caeea51d8a0ca6700b7d44ed2910e9abd19140e0af93e43e07e4421af74204
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:56c4e431a7eeab206df37d491ab30d5ddab0e311ff369399b16388b235f72b5b
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:3abfab9242fc9be997689c0d5ac7b66d3c509f3c9c1d38204b868d7174dffbb9
 stable:
   version: 18.2.1-397
   repositories:
