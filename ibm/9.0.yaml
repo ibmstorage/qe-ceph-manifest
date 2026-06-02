@@ -10,7 +10,7 @@ nightly:
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.0-18047
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.0-18307
-    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-18094
+    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel10:v9.0-18111
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v9.0-18049
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.0-18048
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
