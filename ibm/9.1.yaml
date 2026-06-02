@@ -24,7 +24,7 @@ nightly:
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.1-18338
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.1-18334
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.1-17766
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-18332
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-18344
 stable:
   version: 20.2.1-280
   repositories:
