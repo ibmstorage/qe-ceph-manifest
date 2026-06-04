@@ -21,12 +21,12 @@ stable:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-372/
   images:
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:362a069186f4fa0261eefa0d1078df2bb77b256ef0bddebb878205de84ef9431
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:b613c2b11e7b1f6ffbcd9f4af43a077269b85e2c5849379e8666f55174c9e8db
     grafana_image: quay.io/rhceph-ci/grafana@sha256:33c067833eba56de6c0c6574b2c0c747a08b9107446ab4dfea9784b428fc195f
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:299c33284a069a402e051fd3a2e1259d4823e261537353b4a46df7f91a366c5a
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:326cf43ff194c36fc908ac067239fcca65a4d435087009ce76feb884655b5c0a
     promtail_image: quay.io/rhceph-ci/promtail@sha256:705f8c8bf91cdc3bc4c801c5709756adbc6d5be9c369b3f306038d9cc06102d9
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:85875d6d0ef905f5494bae074543a55f51063efdce8907de5c3a1026f024ea9e
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:7eceae9b484e8e889e6689b99d43b91f67e8cfc3d189031d6d8d1c2b92a2a83e
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:9a442fff94fe84bbdc7ae7b53898c5bc66900507a3c35ebb292cfe257066d43d
 rc:
   version: 19.2.1-366
