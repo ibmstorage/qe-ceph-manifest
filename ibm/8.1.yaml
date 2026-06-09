@@ -82,7 +82,7 @@ released:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/8/rhel9/
   images:
     crimson_image: cp.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-16483
-    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-16484
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-18614
     grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-15705
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-13593
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-13594
