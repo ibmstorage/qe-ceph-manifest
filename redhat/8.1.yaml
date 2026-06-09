@@ -29,20 +29,20 @@ stable:
     ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8.1-16
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:9a442fff94fe84bbdc7ae7b53898c5bc66900507a3c35ebb292cfe257066d43d
 rc:
-  version: 19.2.1-366
+  version: 19.2.1-374
   repositories:
     default:
-      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-8.1-RHEL-9-20260506.0/RHCEPH-8.1-RHEL-9-20260506.0.repo
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-8.1-RHEL-9-20260608.0/RHCEPH-8.1-RHEL-9-20260608.0.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-374/
   images:
-    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8.1-15
-    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-1746621538
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-2
-    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.5.3-1
-    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:12.4.2-1
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-1746621570
-    oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.14.0-1
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8.1-17
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-136
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-79
+    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:v3.5.3-11
+    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:12.4.2-10
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:2.2.8-87
+    oauth2_proxy_image: registry.stage.redhat.io/rhceph/oauth2-proxy-rhel9:v7.14.0-11
 released:
   version: 19.2.1-366
   repo_ids:
