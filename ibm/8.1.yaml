@@ -1,5 +1,5 @@
 nightly:
-  version: 19.2.1-366.1.hotfix.IBMCEPH13564
+  version: 19.2.1-374
   repositories:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202606092050.ci.0/IBM-CEPH-8.1-202606092050.ci.0-rhel9.repo
