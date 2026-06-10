@@ -33,24 +33,22 @@ stable:
     alloy_image: quay.io/rhceph-ci/alloy@sha256:061c83a3b06e22f4836d8d4af4c81fcc1882c63204f045096d35da78d0e568c2
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:4078b0a33c3c6bdb6a9bd3b9c1ca8d19648d542eefd607f9e9748f316acb13b0
 rc:
-  version: 20.1.0-185
-  repo_ids:
-    rhel-9: rhceph-9-tools-for-rhel-9-x86_64-rpms
-    rhel-10: rhceph-9-tools-for-rhel-10-x86_64-rpms
+  version: 20.1.0-221
   repositories:
     default:
-      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260409.0/RHCEPH-9.0-RHEL-10-20260409.0.repo
-      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260409.0/RHCEPH-9.0-RHEL-9-20260409.0.repo
+      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-10-20260609.0/RHCEPH-9.0-RHEL-10-20260609.0.repo
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.0-RHEL-9-20260609.0/RHCEPH-9.0-RHEL-9-20260609.0.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel9/
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/released/redhat/9/rhel10/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.1.0-221/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.1.0-221/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-9-rhel9:9.0-3
-    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel10:1.2.1-1
-    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-1
-    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel10:2.2.8-1
-    grafana_image: registry.redhat.io/rhceph/grafana-rhel10:12.3.1-1
-    alloy_image: registry.redhat.io/rhceph/alloy-rhel10:1.10.2-1
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-9-rhel9:9.0-11
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel10:1.2.1-81
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-80
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel10:2.2.8-81
+    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel10:12.4.2-26
+    alloy_image: registry.stage.redhat.io/rhceph/alloy-rhel10:v1.10.2-1
+    oauth2_proxy_image: registry.stage.redhat.io/rhceph/oauth2-proxy-rhel9:v7.14.0-12
 released:
   version: 20.1.0-185
   repo_ids:
