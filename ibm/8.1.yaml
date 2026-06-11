@@ -1,10 +1,10 @@
 nightly:
-  version: 9.2.1-374
+  version: 19.2.1-374
   repositories:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202606110644.ci.0/IBM-CEPH-8.1-202606110644.ci.0-rhel9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/9.2.1-374/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-374/
   images:
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-18972
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-18973
@@ -49,12 +49,12 @@ stable:
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-18693
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-18692
 rc:
-  version: 9.2.1-374
+  version: 19.2.1-374
   repositories:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202606110644.ci.0/IBM-CEPH-8.1-202606110644.ci.0-rhel9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/9.2.1-374/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-374/
   images:
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-18972
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-18973
