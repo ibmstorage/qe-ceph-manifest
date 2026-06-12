@@ -36,13 +36,13 @@ rc:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-374/
   images:
-    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8.1-17
-    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-136
-    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-79
-    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:v3.5.3-11
-    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:12.4.2-10
-    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:2.2.8-87
-    oauth2_proxy_image: registry.stage.redhat.io/rhceph/oauth2-proxy-rhel9:v7.14.0-11
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8.1-18
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-137
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-82
+    promtail_image: registry.stage.redhat.io/rhceph/rhceph-promtail-rhel9:v3.5.3-12
+    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:12.4.2-11
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:2.2.8-88
+    oauth2_proxy_image: registry.stage.redhat.io/rhceph/oauth2-proxy-rhel9:v7.14.0-14
 released:
   version: 19.2.1-366
   repo_ids:
