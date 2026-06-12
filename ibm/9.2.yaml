@@ -1,4 +1,3 @@
----
 nightly:
   version: 20.2.2-9
   repositories:
