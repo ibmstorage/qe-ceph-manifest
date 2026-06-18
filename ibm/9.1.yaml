@@ -24,7 +24,7 @@ nightly:
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.1-19281
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.1-19277
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.1-18855
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-19279
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-19301
 stable:
   version: 20.2.1-294
   repositories:
@@ -51,7 +51,7 @@ stable:
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.1-19281
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.1-19277
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.1-18855
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-19279
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-19301
 ubi10:
   version: 20.2.1-236.0.TEST.wip_rocky10_branch_of_the_day_9.1_20260505_1430
   repositories:
