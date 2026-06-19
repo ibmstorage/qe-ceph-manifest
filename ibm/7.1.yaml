@@ -1,11 +1,11 @@
 nightly:
-  version: 18.2.1-375
+  version: 18.2.1-399
   repositories:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-7.1-202606181823.ci.0/IBM-CEPH-7.1-202606181823.ci.0-rhel9.repo
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-7.1-202605290209.ci.0/IBM-CEPH-7.1-202605290209.ci.0-rhel8.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-375/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-399/
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel8/18.2.1-398/
   images:
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-19348
@@ -43,13 +43,13 @@ stable:
     promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v7.1-18161
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v7.1-18105
 rc:
-  version: 18.2.1-375
+  version: 18.2.1-399
   repositories:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-7.1-202606181823.ci.0/IBM-CEPH-7.1-202606181823.ci.0-rhel9.repo
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-7.1-202605290209.ci.0/IBM-CEPH-7.1-202605290209.ci.0-rhel8.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-375/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-399/
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel8/18.2.1-398/
   images:
     ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-19348
