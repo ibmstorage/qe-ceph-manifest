@@ -1,11 +1,11 @@
 nightly:
-  version: 20.2.2-22
+  version: 20.2.2-24
   repositories:
     default:
-      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.2-rhel-10/RHCEPH-9.2-RHEL-10-20260618.ci.2
+      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.2-rhel-10/RHCEPH-9.2-RHEL-10-20260618.ci.3
       rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.2-rhel-9/RHCEPH-9.2-RHEL-9-20260609.ci.1
     eu-de:
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.2-22/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.2-24/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.2.2-10/
   images:
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:4066c92c4d98ead6b05f591fa5a678727463ac1942631f259f8d5715ca628c40
