@@ -15,21 +15,21 @@ nightly:
     ceph-base: quay.io/rhceph-ci/rhceph@sha256:a8384a1a9b6ed0465877ff3b366a8ce2bcb67d6405c01883be75411bbee3c4b1
     snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:9246a8be4819407338ed024e1138614313f87ed37caa647c3943e3b220b29a6d
 stable:
-  version: 18.2.1-398
+  version: 18.2.1-399
   repositories:
     default:
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20260528.ci.0
-      rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20260528.ci.0
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20260618.ci.0
+      rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20260618.ci.0
     eu-de:
-      rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel8/18.2.1-398/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel9/18.2.1-398/
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel8/18.2.1-399/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel9/18.2.1-399/
   images:
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:01cf8fc9a08ef699484487aa2dd7e8f2e9f7ef0ca5573220733f0f3f69e8e722
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:6f107e2fa51f26b1fc1179e549fe1b1993f73b1468cb15269985ea1e334d45bb
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:18ca142693d977d8efbefeda7fb6fe4c6a66fa035cccafcf15ccdecb7825cc98
-    promtail_image: quay.io/rhceph-ci/promtail@sha256:c366f47817949935dbf488572b76ac6982ff2f5d8fa1aca98c2c43fcf7d285e7
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:4f25889954300943e49ecb04e7afc9201f4ddea8d7ce47918a3833a7920151fc
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:098c55433b58f0e3b036eb7785f8a178bda6d263f6a624a4f259a1771d1c3eb5
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:c0f003f063aec54e45d08b73c9ecd90938d878b3294bf62fb9edeeacfb607be2
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:ce155acadabc940162f97cb476c0d1c4e07c02217c595427a58701bc7285efd1
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:231798ca52d249e3bbcd0ae34ff364a8798325fbac3c9a1c678c7f884add9bbf
+    promtail_image: quay.io/rhceph-ci/promtail@sha256:2c1e737fe2caa6476144ebf21be4c555e5de7e2407bd23354d94cd33002e123b
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:dd99142afda4b19128fe3633fae6028b038b1e56b7c29339969f5531bc25e258
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:bc53c9344364b772e95eda97d14ff0b18521f5e1776556915ded41f6c0342297
 rc:
   version: 18.2.1-399
   repositories:
