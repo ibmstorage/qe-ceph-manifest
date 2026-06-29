@@ -1,10 +1,10 @@
 nightly:
-  version: 20.2.2-27
+  version: 20.2.2-47
   repositories:
     default:
-      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.9.2-202606220538.ci.0/IBM-CEPH-9.9.2-202606220538.ci.0-rhel10.repo
+      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.9.2-202606290721.ci.0/IBM-CEPH-9.9.2-202606290721.ci.0-rhel10.repo
     eu-de:
-      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.2-27/
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.2-47/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.9.2-18319
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-19833
@@ -12,11 +12,12 @@ nightly:
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.9.2-19157
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.9.2-19158
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
-    nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-126-rhel10:10.2-1781700996
-    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-19848
-    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.9.2-19840
+    nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-126-rhel10:10.2-1782692477
+    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-19800
+    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.9.2-19816
     oauth2_proxy_image: cp.stg.icr.io/cp/ibm-ceph/oauth2-proxy-rhel10:v9.9.2-19155
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-19154
+    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel10:v9.9.2-19517
