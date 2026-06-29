@@ -8,13 +8,13 @@ nightly:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.1-298/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.2.1-298/
   images:
-    ceph-base: quay.io/rhceph-ci/rhceph@sha256:8eaa3c754eccb7018bba78406e9a68f1a8d7ca82686e14a98f201077fc958bd6
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:f90f9e1efa2f6530d657be4535baa3d3e48e7403c09918c20e63773e64308b2e
-    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:10913bb8f89d976d31bcd07a5101ecf3d3005dfcd2a96b528731613ec347e39e
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:aa7403f258944de1b8df082fb5e20c93d9d8de27faf4d290a548f17cec51275e
-    grafana_image: quay.io/rhceph-ci/grafana@sha256:b5a339d5560e4aceb5609371653ba3281ab5c25744d6f098847391ca077e2206
-    alloy_image: quay.io/rhceph-ci/alloy@sha256:0a8d49588de04b0daa38af1fd9d97bfeea44f0a6d0389c3890d2cdd0061be3bb
-    oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:3d85b5b5b3bab3a2c57c58eafe54f4f53bb4fae21f00185ef7e034111d73f274
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:9133b0a8d0d68021fee10b73828845d812bee2ba57a6c70d459d9d03ef211573
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:00a6fd88f07ce7366d8d3f2741cbb1da6f21d3d817fc98a4b8e1611ba34243be
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:831141a2a3d3a85668b2ca4070a0006fb1f11825ed77a0f7a37f20cb390fbc50
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:a09b52e14852e5f785e7d1b89f5761cfbac03d7d6b0856b0b863475f91481fa5
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:4ec8a02ba229e49b1e04f65eba5a6f9296a66ab632ab3d755d72abf525441ea0
+    alloy_image: quay.io/rhceph-ci/alloy@sha256:23c4317353505cc7acb1e981a64c8529b9cd7ac3e3b9c6d45406e61af06111d5
+    oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:f098bef9736f2c3b1da5fc0a1f12b56324bc42c9287d91c755762a3671dc7a44
 stable:
   version: 20.2.1-298
   repositories:
