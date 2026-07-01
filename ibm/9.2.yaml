@@ -7,14 +7,14 @@ nightly:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.2-49/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.9.2-18319
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-19892
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.9.2-19890
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-19966
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.9.2-19968
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.9.2-19157
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.9.2-19158
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-126-rhel10:10.2-1782692477
-    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-19894
-    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.9.2-19891
+    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-19971
+    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.9.2-19967
     oauth2_proxy_image: cp.stg.icr.io/cp/ibm-ceph/oauth2-proxy-rhel10:v9.9.2-19155
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
