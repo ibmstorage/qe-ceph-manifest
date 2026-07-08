@@ -2,8 +2,8 @@ nightly:
   version: 20.2.1-301
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.9.1-202607032127.ci.0/IBM-CEPH-9.9.1-202607032127.ci.0-rhel9.repo
-      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.9.1-202607032127.ci.0/IBM-CEPH-9.9.1-202607032127.ci.0-rhel10.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.9.1-202607071119.ci.0/IBM-CEPH-9.9.1-202607071119.ci.0-rhel9.repo
+      rhel-10: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.9.1-202607071119.ci.0/IBM-CEPH-9.9.1-202607071119.ci.0-rhel10.repo
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.2.1-301/
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.1-301/
@@ -24,7 +24,7 @@ nightly:
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.1-20192
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.1-20188
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.1-18855
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-20187
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-20281
 stable:
   version: 20.2.1-301
   repositories:
