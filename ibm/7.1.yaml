@@ -52,7 +52,7 @@ rc:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
-    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-19348
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-20125
     grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-19101
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-19089
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-19090
@@ -74,7 +74,7 @@ released:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
-    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-19348
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-20125
     grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-19101
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-19089
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-19090
@@ -96,7 +96,7 @@ z10:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
   images:
-    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-19348
+    ceph-base: cp.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-20125
     grafana_image: cp.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-19101
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-19089
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-19090
