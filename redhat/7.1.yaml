@@ -40,7 +40,7 @@ rc:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7.1-4
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7.1-5
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:12.4.2-3
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-5
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-89
@@ -59,7 +59,7 @@ released:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7.1-4
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7.1-5
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:12.4.2-3
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-5
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-89
@@ -78,7 +78,7 @@ z10:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
   images:
-    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7.1-4
+    ceph-base: registry.redhat.io/rhceph/rhceph-7-rhel9:7.1-5
     grafana_image: registry.redhat.io/rhceph/grafana-rhel9:12.4.2-3
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-5
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-89
