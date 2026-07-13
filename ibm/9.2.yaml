@@ -15,13 +15,13 @@ nightly:
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.9.2-19158
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-126-rhel10:10.2-1783484693
-    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-20595
+    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-20705
     nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.9.2-20590
     oauth2_proxy_image: cp.stg.icr.io/cp/ibm-ceph/oauth2-proxy-rhel10:v9.9.2-19155
     alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
     node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
-    samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-20596
+    samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-20704
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-20589
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-19154
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel10:v9.9.2-19517
