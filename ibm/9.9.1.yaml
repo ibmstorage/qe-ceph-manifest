@@ -1,5 +1,5 @@
 nightly:
-  version: 20.2.1-294.0.TEST.IBMCEPH16987
+  version: 20.2.1-294.0.TEST.denaliTF
   repositories:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-9.9.1-202607250404.ci.0/IBM-CEPH-9.9.1-202607250404.ci.0-rhel9.repo
