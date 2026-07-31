@@ -1,5 +1,5 @@
 nightly:
-  version: 19.2.1-375
+  version: 19.2.1-387
   repositories:
     default:
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202607300511.ci.0/IBM-CEPH-8.1-202607300511.ci.0-rhel9.repo
@@ -7,7 +7,7 @@ nightly:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-387/
   images:
     crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-21971
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-22054
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-21968
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-18734
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-18694
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-18688
