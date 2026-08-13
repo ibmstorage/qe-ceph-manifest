@@ -13,7 +13,7 @@ nightly:
     alloy_image: quay.io/rhceph-ci/alloy@sha256:694224525f41a368a7aea367b5d46b9ae55a997098b6d597c48d80b8c7bbf73e
     grafana_image: quay.io/rhceph-ci/grafana@sha256:1d8d8cb3873e8d7fdfda75022d6e929afe6f143bb96e74bd8be77b132da686c0
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:677f1e3ad9f6a383d6e79a025e01b3bcf6e0ea434bbe830837a98bb320ea212f
-    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:d20465f4694fb3106df39b18ec76958e9fb925229d224a942b2ef8b370fa917e
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:c07a9fceb3f70e8bbfcc565b8701ac5d61912600825b2c97f8a4a0e3a7f7c6fc
     oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:28da37e4884531b96c86ccb482344ccf11b7ef94ed15bcbaa843c5e90404e7b2
 stable:
   version: 20.2.2-220
