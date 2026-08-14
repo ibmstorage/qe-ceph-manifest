@@ -6,7 +6,7 @@ nightly:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/8/rhel9/19.2.1-400/
   images:
-    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:67d59a6686e890d258f1ed07d12ebbe1f7735c8e298b5a0cca2646b3df70d5d6
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:7da20742bb27dcb79774691eb824e3f3f246f7a336ec243525b72d40acb7e064
     grafana_image: quay.io/rhceph-ci/grafana@sha256:599850734a9c696864f1087148859dd894df722a60406aa32737c549594a98ae
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:b50cd6b1db5f33b918530b74a40cd1785ec7d2a9c3a1600d8a4c7639c86f4123
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:8864df94130c0f549359abb7d2e654851055f99b5a268857f615f25ffb2a1c8b
