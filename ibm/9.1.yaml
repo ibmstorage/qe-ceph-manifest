@@ -9,7 +9,7 @@ nightly:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.1-391/
   images:
     alloy_image: cp.stg.icr.io/cp/ibm-ceph/alloy-rhel10:v9.9.1-21238
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.9.1-24280
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-9-rhel9:v9.9.1-24357
     grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel10:v9.9.1-22838
     haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.9.1-24282
     keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.9.1-24279
@@ -24,7 +24,7 @@ nightly:
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.1-24285
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.1-24276
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.1-21246
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-24274
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel9:v9.9.1-24358
 stable:
   version: 20.2.1-391
   repositories:
