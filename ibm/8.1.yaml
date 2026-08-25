@@ -49,30 +49,30 @@ stable:
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-23292
     snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-18692
 rc:
-  version: 19.2.1-403
+  version: 19.2.1-405
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202608190828.ci.0/IBM-CEPH-8.1-202608190828.ci.0-rhel9.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202608240619.ci.0/IBM-CEPH-8.1-202608240619.ci.0-rhel9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-403/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-405/
   images:
-    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-24015
-    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-24011
-    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-24019
-    haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-24016
-    keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-24013
+    crimson_image: cp.stg.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-24457
+    ceph-base: cp.stg.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-24458
+    grafana_image: cp.stg.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-24450
+    haproxy_image: cp.stg.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-24456
+    keepalived_image: cp.stg.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-24452
     loki_image: cp.stg.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.stg.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
-    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-24028
-    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-24018
-    oauth2_proxy_image: cp.stg.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v8.1-24014
-    alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:v4.15.0-202507282305.p0.g870ade5.assembly.stream.el8
-    node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:v4.15.0-202507282305.p0.gaed837c.assembly.stream.el8
-    prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:v4.15.0-202507282305.p0.g79fa623.assembly.stream.el8
-    promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-24020
-    samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-24029
-    samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-24012
-    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-24017
+    nvmeof_cli_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-24461
+    nvmeof_image: cp.stg.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-24455
+    oauth2_proxy_image: cp.stg.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v8.1-24451
+    alertmanager_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202607201846.p2.g7dd2d96.assembly.stream.el8
+    node_exporter_image: cp.stg.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202607201846.p2.gaed837c.assembly.stream.el8
+    prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202607201846.p2.g4b404ff.assembly.stream.el8
+    promtail_image: cp.stg.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-24454
+    samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-24463
+    samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-24453
+    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-24477
 released:
   version: 19.2.1-375
   repositories:
