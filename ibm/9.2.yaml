@@ -50,4 +50,4 @@ stable:
     prometheus_image: cp.stg.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202608171901.p2.gf5ef2c4.assembly.stream.el8
     samba_metrics_image: cp.stg.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-24751
     samba_image: cp.stg.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-24748
-    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9
+    snmp_gateway_image: cp.stg.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-19154
