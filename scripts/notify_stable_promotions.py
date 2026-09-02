@@ -88,9 +88,10 @@ def promotion_payloads(
         # as ibm/ibm-ceph-9.2.yaml would produce a misleading label; rename it to
         # follow the convention before adding a stable section.
         ceph_version = p.stem
-        # For vendors whose display name already implies "Ceph" (e.g. "Ceph"),
-        # omit the redundant word from the template to avoid "Ceph Ceph squid…".
-        word_ceph = "" if vendor.lower() == "ceph" else "Ceph "
+        # Suppress the literal word "Ceph" from the message when the manifest
+        # lives under the ceph/ directory — its display name already implies it,
+        # and keying on the raw directory name decouples this from VENDOR_NAMES.
+        word_ceph = "" if path_parts[0].lower() == "ceph" else "Ceph "
         vendor_prefix = f"{vendor} " if vendor else ""
         message = (
             f"{vendor_prefix}{word_ceph}{ceph_version} build {build_version} has been promoted to stable "
