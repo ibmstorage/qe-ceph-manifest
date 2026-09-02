@@ -1,0 +1,72 @@
+name: Notify stable manifest promotion
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ibm/**'
+      - 'redhat/**'
+      - 'ceph/**'
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install PyYAML
+        run: pip install -r requirements.txt
+
+      - name: Read promotion pull request comment
+        id: pull-request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          comment="$(gh api \
+            "/repos/${GITHUB_REPOSITORY}/commits/${GITHUB_SHA}/pulls" \
+            --jq '[.[] | select(.merged_at != null) | .body][0] // ""')"
+          {
+            echo 'comment<<EOF'
+            echo "$comment"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Find stable promotions
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+          PROMOTION_COMMENT: ${{ steps.pull-request.outputs.comment }}
+        run: |
+          python3 scripts/notify_stable_promotions.py \
+            > stable-promotions.json
+
+      - name: Notify Slack
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          jq -e 'length > 0' stable-promotions.json > /dev/null || exit 0
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "The SLACK_WEBHOOK_URL repository secret is required."
+            exit 1
+          fi
+          jq -r '.[] | @base64' stable-promotions.json | while read -r payload; do
+            curl --fail --silent --show-error \
+              --retry 3 --retry-delay 2 \
+              -X POST \
+              -H 'Content-type: application/json' \
+              --data "$(printf '%s' "$payload" | base64 --decode)" \
+              "$SLACK_WEBHOOK_URL" \
+              || echo "WARNING: Slack notification failed for one payload; continuing."
+          done
