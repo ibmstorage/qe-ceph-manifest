@@ -4,8 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - '**/*.yaml'
-      - '**/*.yml'
+      - 'ibm/**'
+      - 'redhat/**'
+      - 'ceph/**'
 
 permissions:
   contents: read
@@ -15,11 +16,11 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
           cache: pip
@@ -47,9 +48,9 @@ jobs:
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
           PROMOTION_COMMENT: ${{ steps.pull-request.outputs.comment }}
-        run: >
-          python3 scripts/notify_stable_promotions.py "$BEFORE_SHA" "$AFTER_SHA" "$PROMOTION_COMMENT"
-          > stable-promotions.json
+        run: |
+          python3 scripts/notify_stable_promotions.py \
+            > stable-promotions.json
 
       - name: Notify Slack
         env:
@@ -62,8 +63,10 @@ jobs:
           fi
           jq -r '.[] | @base64' stable-promotions.json | while read -r payload; do
             curl --fail --silent --show-error \
+              --retry 3 --retry-delay 2 \
               -X POST \
               -H 'Content-type: application/json' \
               --data "$(printf '%s' "$payload" | base64 --decode)" \
-              "$SLACK_WEBHOOK_URL"
+              "$SLACK_WEBHOOK_URL" \
+              || echo "WARNING: Slack notification failed for one payload; continuing."
           done

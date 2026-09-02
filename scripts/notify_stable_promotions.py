@@ -4,8 +4,8 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
-import sys
 from pathlib import PurePosixPath
 
 import yaml
@@ -59,7 +59,16 @@ def promotion_payloads(
         return []
 
     payloads = []
+    # Manifests are expected to live at <vendor>/<ceph-version>.yaml
+    # (e.g. ibm/9.2.yaml, redhat/9.2.yaml, ceph/squid.yaml).
+    # Files at the repo root or in unrelated directories (e.g. .github/) are
+    # skipped because they cannot carry a meaningful stable section.
     for path in changed_yaml_files(before, after):
+        p = PurePosixPath(path)
+        if p.parent == PurePosixPath("."):
+            # Root-level YAML file — not a manifest recipe; skip.
+            continue
+
         previous_stable = recipe_at_revision(before, path).get("stable")
         current_stable = recipe_at_revision(after, path).get("stable")
 
@@ -70,9 +79,14 @@ def promotion_payloads(
         if not build_version:
             raise ValueError(f"Stable section in {path} has no version value")
 
-        path_parts = PurePosixPath(path).parts
+        path_parts = p.parts
         vendor = VENDOR_NAMES.get(path_parts[0].lower(), "")
-        ceph_version = PurePosixPath(path).stem
+        # The filename stem is used directly as the Ceph version label.
+        # Expected convention: <vendor>/<ceph-version>.yaml (e.g. ibm/9.2.yaml,
+        # redhat/9.2.yaml, ceph/squid.yaml).  An unconventionally named file such
+        # as ibm/ibm-ceph-9.2.yaml would produce a misleading label; rename it to
+        # follow the convention before adding a stable section.
+        ceph_version = p.stem
         vendor_prefix = f"{vendor} " if vendor else ""
         message = (
             f"{vendor_prefix}Ceph {ceph_version} build {build_version} has been promoted to stable "
@@ -86,13 +100,17 @@ def promotion_payloads(
 
 
 def main() -> None:
-    if len(sys.argv) not in (3, 4):
+    before = os.environ.get("BEFORE_SHA", "").strip()
+    after = os.environ.get("AFTER_SHA", "").strip()
+    if not before or not after:
         raise SystemExit(
-            "Usage: notify_stable_promotions.py BEFORE_SHA AFTER_SHA [PROMOTION_COMMENT]"
+            "BEFORE_SHA and AFTER_SHA environment variables are required."
         )
-
-    promotion_comment = sys.argv[3] if len(sys.argv) == 4 else ""
-    print(json.dumps(promotion_payloads(sys.argv[1], sys.argv[2], promotion_comment)))
+    promotion_comment = os.environ.get("PROMOTION_COMMENT", "")
+    try:
+        print(json.dumps(promotion_payloads(before, after, promotion_comment)))
+    except ValueError as exc:
+        raise SystemExit(f"ERROR: {exc}") from exc
 
 
 if __name__ == "__main__":
