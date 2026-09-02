@@ -16,6 +16,7 @@ YAML_SUFFIXES = {".yaml", ".yml"}
 VENDOR_NAMES = {
     "ibm": "IBM",
     "redhat": "RedHat",
+    "ceph": "Ceph",
 }
 
 
@@ -109,6 +110,10 @@ def main() -> None:
     promotion_comment = os.environ.get("PROMOTION_COMMENT", "")
     try:
         print(json.dumps(promotion_payloads(before, after, promotion_comment)))
+    except subprocess.CalledProcessError as exc:
+        raise SystemExit(
+            f"ERROR: git command failed (exit {exc.returncode}): {exc.cmd}"
+        ) from exc
     except ValueError as exc:
         raise SystemExit(f"ERROR: {exc}") from exc
 
