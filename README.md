@@ -39,6 +39,7 @@ The root level keys that map to `--build-type` in `cephci`
 | stable | Contains details of nightly build that has passed Sanity test suite | `map` |
 | released | Contains details of the latest general availability. | `map` |
 | z`N` | Contains details of the `N` z stream generally available. | `map` |
+| respin | Contains details of ceph respin on the latest release. | `map` |
 
 ### Keys - Level 2
 
