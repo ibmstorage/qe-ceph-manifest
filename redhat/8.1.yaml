@@ -43,6 +43,23 @@ rc:
     grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:13.1.0-4
     keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel9:2.2.8-95
     oauth2_proxy_image: registry.stage.redhat.io/rhceph/oauth2-proxy-rhel9:v7.14.0-19
+respin:
+  version: 19.2.1-405
+  repo_ids:
+    rhel-9: rhceph-8-tools-for-rhel-9-x86_64-rpms
+  repositories:
+    default:
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-8.1-RHEL-9-20260824.0/RHCEPH-8.1-RHEL-9-20260824.0.repo
+    eu-de:
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/8/rhel9/
+  images:
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-8-rhel9:8.1-33
+    snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-140
+    haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-7
+    promtail_image: registry.redhat.io/rhceph/rhceph-promtail-rhel9:v3.5.3-5
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:13.1.0-1
+    keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-91
+    oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel9:v7.14.0-5
 released:
   version: 19.2.1-405
   repo_ids:
