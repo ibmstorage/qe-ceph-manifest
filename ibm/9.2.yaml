@@ -9,7 +9,7 @@ nightly:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.2.2-316/
   images:
     alloy_image: preprod.icr.io/cp/ibm-ceph/alloy-rhel10:v9.9.2-18319
-    crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-25343
+    crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-25364
     ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.9.2-25344
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.9.2-19157
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.9.2-19158
@@ -21,8 +21,8 @@ nightly:
     alertmanager_image: preprod.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202608171901.p2.g683f4f2.assembly.stream.el8
     node_exporter_image: preprod.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202608171901.p2.gaed837c.assembly.stream.el8
     prometheus_image: preprod.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202608171901.p2.gf5ef2c4.assembly.stream.el8
-    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-25348
-    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-25342
+    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-25370
+    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-25365
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-19154
     grafana_image: preprod.icr.io/cp/ibm-ceph/grafana-rhel10:v9.9.2-22570
 stable:
