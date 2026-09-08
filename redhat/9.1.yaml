@@ -47,7 +47,7 @@ rc:
     haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel10:3.0.5-60
     keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel10:2.2.8-130
     grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel10:13.1.0-17
-    alloy_image: registry.stage.redhat.io/rhceph/alloy-rhel10:1.10.2-126
+    alloy_image: registry.stage.redhat.io/rhceph/alloy-rhel10:1.10.2-130
     oauth2_proxy_image: registry.stage.redhat.io/rhceph/oauth2-proxy-rhel10:v7.14.0-52
 respin:
   version: 20.2.1-324
