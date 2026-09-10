@@ -1,10 +1,10 @@
 nightly:
-  version: 19.2.1-405
+  version: 19.2.1-413
   repositories:
     default:
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202609090029.ci.0/IBM-CEPH-8.1-202609090029.ci.0-rhel9.repo
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-8.1-202609100402.ci.0/IBM-CEPH-8.1-202609100402.ci.0-rhel9.repo
     eu-de:
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-412/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-413/
   images:
     crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-25514
     ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-25517
