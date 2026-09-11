@@ -22,8 +22,8 @@ nightly:
     alertmanager_image: preprod.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202608171901.p2.g683f4f2.assembly.stream.el8
     node_exporter_image: preprod.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202608171901.p2.gaed837c.assembly.stream.el8
     prometheus_image: preprod.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202608171901.p2.gf5ef2c4.assembly.stream.el8
-    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-25624
-    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-25618
+    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-25728
+    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-25724
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-23598
     rgw_standalone_image: preprod.icr.io/cpopen/ibm-ceph/rgw-standalone-rhel10:v9.9.2-25750
     rgw_developer_experience_image: preprod.icr.io/cp/ibm-ceph/rgw-developer-experience-rhel10:v9.9.2-25757
