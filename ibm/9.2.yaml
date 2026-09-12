@@ -25,8 +25,6 @@ nightly:
     samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-25789
     samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-25785
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-23598
-    rgw_standalone_image: preprod.icr.io/cpopen/ibm-ceph/rgw-standalone-rhel10:v9.9.2-25783
-    rgw_developer_experience_image: preprod.icr.io/cp/ibm-ceph/rgw-developer-experience-rhel10:v9.9.2-25790
 stable:
   version: 20.2.2-316
   repositories:
