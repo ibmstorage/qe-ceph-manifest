@@ -2,11 +2,11 @@ nightly:
   version: 18.2.1-409
   repositories:
     default:
-      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20260916.ci.0
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-7.1-rhel-9/RHCEPH-7.1-RHEL-9-20260917.ci.0
       rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-7.1-rhel-8/RHCEPH-7.1-RHEL-8-20260917.ci.0
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel8/18.2.1-409/
-      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel9/18.2.1-408/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/7/rhel9/18.2.1-409/
   images:
     grafana_image: quay.io/rhceph-ci/grafana@sha256:fe602315ba102557cbedc6e6433681c6ef6db7510f3ecf79e1d5ede638468028
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:61c1def1af5c961a9738959b505b6c9be66cad7fe47b30728cf491894d04c668
