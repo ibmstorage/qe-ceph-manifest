@@ -54,3 +54,4 @@ stable:
     samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-26348
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-23598
     promtail_image: preprod.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-25656
+    
