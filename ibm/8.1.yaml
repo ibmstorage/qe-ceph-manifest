@@ -13,15 +13,15 @@ nightly:
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-25650
     loki_image: preprod.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: preprod.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
-    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-26162
-    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-26161
+    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-26605
+    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-26596
     oauth2_proxy_image: preprod.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v8.1-25655
     alertmanager_image: preprod.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202608171901.p2.g683f4f2.assembly.stream.el8
     node_exporter_image: preprod.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202608171901.p2.gaed837c.assembly.stream.el8
     prometheus_image: preprod.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202608171901.p2.gf5ef2c4.assembly.stream.el8
     promtail_image: preprod.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-25656
-    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-26163
-    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-26158
+    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-26606
+    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-26593
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-25647
 stable:
   version: 19.2.1-417
