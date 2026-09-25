@@ -7,7 +7,7 @@ nightly:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-418/
   images:
     crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-26594
-    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-26595
+    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-26692
     grafana_image: preprod.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-25652
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-25648
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-25650
