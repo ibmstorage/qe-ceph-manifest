@@ -15,7 +15,7 @@ nightly:
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.9.2-23600
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.9.2-23601
     loki_image: preprod.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
-    nginx_image: preprod.icr.io/cp/ibm-ceph/nginx-126-rhel10:10.2-1789607906
+    nginx_image: preprod.icr.io/cp/ibm-ceph/nginx-126-rhel10:10.2-1790233748
     nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-26644
     nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.9.2-26638
     oauth2_proxy_image: preprod.icr.io/cp/ibm-ceph/oauth2-proxy-rhel10:v9.9.2-23602
