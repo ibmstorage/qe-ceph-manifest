@@ -6,23 +6,23 @@ nightly:
     eu-de:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/8/rhel9/19.2.1-421/
   images:
-    crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-26824
-    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-26803
-    grafana_image: preprod.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-26807
-    haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-26800
-    keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-26804
+    crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-8-crimson-rhel9:v8.1-26979
+    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-8-rhel9:v8.1-26977
+    grafana_image: preprod.icr.io/cp/ibm-ceph/grafana-rhel9:v8.1-26981
+    haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel9:v8.1-26976
+    keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-26978
     loki_image: preprod.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: preprod.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
-    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-26808
-    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-26798
-    oauth2_proxy_image: preprod.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v8.1-26802
+    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-26982
+    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-26975
+    oauth2_proxy_image: preprod.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v8.1-26973
     alertmanager_image: preprod.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202609110318.p2.g683f4f2.assembly.stream.el8
     node_exporter_image: preprod.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202609110318.p2.gaed837c.assembly.stream.el8
     prometheus_image: preprod.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202609110318.p2.gf5ef2c4.assembly.stream.el8
-    promtail_image: preprod.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-26797
-    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-26809
-    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-26805
-    snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-26801
+    promtail_image: preprod.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-26971
+    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel9:v8.1-26983
+    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel9:v8.1-26972
+    snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel9:v8.1-26974
 stable:
   version: 19.2.1-420
   repositories:
