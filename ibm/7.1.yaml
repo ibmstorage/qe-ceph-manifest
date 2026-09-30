@@ -8,13 +8,13 @@ nightly:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel9/18.2.1-411/
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/7/rhel8/18.2.1-411/
   images:
-    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-26896
+    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-7-rhel9:v7.1-26956
     grafana_image: preprod.icr.io/cp/ibm-ceph/grafana-rhel9:v7.1-26894
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel9:v7.1-26891
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel9:v7.1-26892
     loki_image: preprod.icr.io/cp/ibm-ceph/logging-loki-rhel8:v2.6.1-51
-    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v7.1-26897
-    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel9:v7.1-26893
+    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v7.1-26957
+    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel9:v7.1-26955
     alertmanager_image: preprod.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202609110318.p2.g683f4f2.assembly.stream.el8
     node_exporter_image: preprod.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202609110318.p2.gaed837c.assembly.stream.el8
     prometheus_image: preprod.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202609110318.p2.gf5ef2c4.assembly.stream.el8
