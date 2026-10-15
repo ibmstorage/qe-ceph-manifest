@@ -90,3 +90,9 @@ nightly:
     grafana_image: quay.io/rhceph-dev/grafana@sha256:8537faf05d066945ca4db0d866f41790f010383f30b0ba9bef7570534925daa0
     haproxy_image: quay.io/rhceph-ci/haproxy@sha256:f610423204633f246aba13ebe5cf9dd3379a3c34bbf589337efaf361025632dd
     keepalived_image: quay.io/rhceph-ci/keepalived@sha256:f246b97acf81b56545dd4497b79718ac029e8af2372277b44e55d132403ce21b
+  version: 17.2.6-283
+  repositories:
+    default:
+      rhel-8: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-8/composes/auto/ceph-6.1-rhel-8/RHCEPH-6.1-RHEL-8-20261015.ci.0
+    eu-de:
+      rhel-8: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/rhel8/17.2.6-283/
