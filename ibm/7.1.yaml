@@ -91,7 +91,7 @@ released:
   repositories:
     default:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel9/
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
@@ -113,7 +113,7 @@ z11:
   repositories:
     default:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel8/
-      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/7/rhel9/
+      rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/ibm-storage-ceph-7-rhel-9.repo
     eu-de:
       rhel-8: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel8/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/7/rhel9/
