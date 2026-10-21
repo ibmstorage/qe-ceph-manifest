@@ -1,0 +1,34 @@
+nightly:
+  version: 20.2.2-351
+  repositories:
+    default:
+      rhel-10: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-10/composes/auto/ceph-9.2-rhel-10/RHCEPH-9.2-RHEL-10-20261019.ci.1
+      rhel-9: http://download-01.beak-001.prod.iad2.dc.redhat.com/rhel-9/composes/auto/ceph-9.2-rhel-9/RHCEPH-9.2-RHEL-9-20260930.ci.1
+    eu-de:
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.2-351/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.2.2-349/
+  images:
+    ceph-base: quay.io/rhceph-ci/rhceph@sha256:1078668fd2feab8023e6c2825417dfa5b6b63d88d6fadf55a753d470855ad83f
+    snmp_gateway_image: quay.io/rhceph-ci/snmp-notifier@sha256:d7833a85c31ae2794253795fcd160846425a7ced173e5a779fdc90b3bc3ca6ea
+    alloy_image: quay.io/rhceph-ci/alloy@sha256:d52c7082be22a2aa94a13259b966b6724a7c2e736ea2e84b1c9a03a764f422b3
+    grafana_image: quay.io/rhceph-ci/grafana@sha256:d7feb3567e8a87c10a987e328bb5cc7145bc863317768f130234322e9b87dca6
+    haproxy_image: quay.io/rhceph-ci/haproxy@sha256:99cf73a2a18922ed6fe527677b72b377f69b5668a0ed0dd51e4bacc380e0d301
+    keepalived_image: quay.io/rhceph-ci/keepalived@sha256:f1bc8ad50a1e3f60d0389432b0487cc5af1a6226b9ece949c3bf011d097b4d94
+    oauth2_proxy_image: quay.io/rhceph-ci/oauth2-proxy@sha256:af8ad412ca1bef04219402635afb70604690b854b8b6366952a147af14674e14
+stable:
+  version: 20.2.2-349
+  repositories:
+    default:
+      rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.2-RHEL-10-20260928.0/RHCEPH-9.2-RHEL-10-20260928.0.repo
+      rhel-9: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.2-RHEL-9-20260928.0/RHCEPH-9.2-RHEL-9-20260928.0.repo
+    eu-de:
+      rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel10/20.2.2-349/
+      rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/redhat/9/rhel9/20.2.2-349/
+  images:
+    ceph-base: registry.stage.redhat.io/rhceph/rhceph-9-rhel10:v9.2-2
+    snmp_gateway_image: registry.stage.redhat.io/rhceph/snmp-notifier-rhel10:1.2.1-139
+    alloy_image: registry.stage.redhat.io/rhceph/alloy-rhel10:1.10.2-135
+    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel10:13.1.0-26
+    haproxy_image: registry.stage.redhat.io/rhceph/rhceph-haproxy-rhel10:3.0.5-69
+    keepalived_image: registry.stage.redhat.io/rhceph/keepalived-rhel10:2.2.8-139
+    oauth2_proxy_image: registry.stage.redhat.io/rhceph/oauth2-proxy-rhel10:v7.14.0-61
