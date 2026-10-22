@@ -51,6 +51,9 @@ rc:
     oauth2_proxy_image: registry.stage.redhat.io/rhceph/oauth2-proxy-rhel10:v7.14.0-65
 released:
   version: 20.2.2-349
+  repo_ids:
+    rhel-9: rhceph-9-tools-for-rhel-9-x86_64-rpms
+    rhel-10: rhceph-9-tools-for-rhel-10-x86_64-rpms
   repositories:
     default:
       rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.2-RHEL-10-20261001.0/RHCEPH-9.2-RHEL-10-20261001.0.repo
@@ -68,6 +71,9 @@ released:
     oauth2_proxy_image: registry.redhat.io/rhceph/oauth2-proxy-rhel10:v7.14.0-4
 z0:
   version: 20.2.2-349
+  repo_ids:
+    rhel-9: rhceph-9-tools-for-rhel-9-x86_64-rpms
+    rhel-10: rhceph-9-tools-for-rhel-10-x86_64-rpms
   repositories:
     default:
       rhel-10: https://s3.us-east.cloud-object-storage.appdomain.cloud/rhceph-signed-composes/RHCEPH-9.2-RHEL-10-20261001.0/RHCEPH-9.2-RHEL-10-20261001.0.repo
