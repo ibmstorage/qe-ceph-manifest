@@ -8,6 +8,7 @@ nightly:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.2-359/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.2.2-359/
   images:
+    # --- Cephadm managed images ---
     alloy_image: preprod.icr.io/cp/ibm-ceph/alloy-rhel10:v9.9.2-26729
     crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-27823
     ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.9.2-27826
@@ -26,6 +27,9 @@ nightly:
     samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-27824
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-26727
     promtail_image: preprod.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-25656
+    # --- Non-Cephadm / Standalone images ---
+    rgw_developer_experience_image: preprod.icr.io/cp/ibm-ceph/rgw-developer-experience-rhel10:v9.9.2-26453
+    rgw_standalone_image: preprod.icr.io/cpopen/ibm-ceph/rgw-standalone-rhel10:v9.9.2-26443
 stable:
   version: 20.2.2-351
   repositories:
@@ -36,6 +40,7 @@ stable:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel10/20.2.2-351/
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.2.2-351/
   images:
+    # --- Cephadm managed images ---
     alloy_image: preprod.icr.io/cp/ibm-ceph/alloy-rhel10:v9.9.2-26729
     crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-27823
     ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.9.2-27826
@@ -54,6 +59,9 @@ stable:
     samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-27824
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-26727
     promtail_image: preprod.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-25656
+    # --- Non-Cephadm / Standalone images ---
+    rgw_developer_experience_image: preprod.icr.io/cp/ibm-ceph/rgw-developer-experience-rhel10:v9.9.2-26453
+    rgw_standalone_image: preprod.icr.io/cpopen/ibm-ceph/rgw-standalone-rhel10:v9.9.2-26443
 rc:
   version: 20.2.2-349
   repositories:
