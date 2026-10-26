@@ -35,11 +35,12 @@ The root level keys that map to `--build-type` in `cephci`
 
 | Key | Description | Type |
 | --- | ----------- | ---- |
-| nightly | Contains details of the last nightly build. | `map` |
-| stable | Contains details of nightly build that has passed Sanity test suite | `map` |
+| nightly | Contains details of the last nightly / CI build. | `map` |
+| stable | Contains details of a nightly build that has passed the Sanity test suite. | `map` |
+| rc | Contains details of the release-candidate build. | `map` |
+| respin | Contains details of a ceph respin on the latest release. | `map` |
 | released | Contains details of the latest general availability. | `map` |
-| z`N` | Contains details of the `N` z stream generally available. | `map` |
-| respin | Contains details of ceph respin on the latest release. | `map` |
+| z`N` | Contains details of the `N` z-stream generally available build. | `map` |
 
 ### Keys - Level 2
 
@@ -55,21 +56,33 @@ Enable `cephci` to pick the right manifest using the below options
 
 ```
 --product     The product to be deployed which <community | ibm | ceph>
---release     The product version to be deployed. Example <8.1 | 7.0>
---build-type  The type of build to be deployed. Example <nightly | stable | released | z1>
---platform    The test environment platform. Example <rhel-9 | centos-9>
+--release     The product version to be deployed. Example <9.2 | 8.1 | 7.1>
+--build-type  The type of build to be deployed. Example <nightly | stable | rc | respin | released | z1>
+--platform    The test environment platform. Example <rhel-9 | rhel-10 | centos-9>
 ```
 
 ## Notes
 
 Key points to remember
 
-- `ibm-prod` mirrors `cp.icr.io` registry
-- `ibm-stage` mirrors `cp.stg.icr.io` registry
-- `rh-prod` mirrors `registry.redhat.io` registry
-- `rh-stage` mirrors `registry-proxy.engineering.redhat.com` registry
-- `nightly` section must point to the released versions.
-- `z<x>` section must point to public facing repositories.
-- `rc | stable` should point to public facing content post release.
+### Container registries
+
+- IBM production (`ibm-prod`) uses `cp.icr.io` (for `released` / `z0` / `z1` / `zN`)
+- IBM staging / preprod (`ibm-stage`) uses `preprod.icr.io` (for `nightly` / `stable` / `rc` / `respin`)
+- `cp.stg.icr.io` is decommissioned; replace any remaining references with `preprod.icr.io`
+- Red Hat production (`rh-prod`) uses `registry.redhat.io` (for `released` / `z0` / `z1` / `zN`)
+- Red Hat staging uses `registry.stage.redhat.io` (for `stable` / `rc` / `respin`; some `nightly` / `stable` sections still use `quay.io`)
+- Legacy Red Hat engineering proxy: `registry-proxy.engineering.redhat.com`
+- Community Ceph images typically use `quay.ceph.io` / `quay.io`
+
+### Section conventions
+
+- `nightly` points to the latest CI / testing build (not GA content)
+- `stable` points to a sanity-passed testing build (IBM: `preprod.icr.io`; RH: often `registry.stage.redhat.io` or `quay.io`)
+- `rc` points to the release-candidate content used before GA
+- `respin` points to respin builds of a released stream (repos may be GA; images may still be `preprod.icr.io` until promoted)
+- `released` and `zN` point to generally available content with production registries and public-facing repositories
+- IBM public repos are under `https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/`
+- Lab mirrors for IBM use `http://repo.qe.ceph.lab/repos/ceph/{testing|released}/ibm/...`
 
 Ensure the local Container Registry holds the necessary images.
