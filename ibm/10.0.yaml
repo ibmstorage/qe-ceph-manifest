@@ -22,5 +22,3 @@ nightly:
     samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-27828
     samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-27824
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.10.0-28220
-    promtail_image: preprod.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-25656
-
