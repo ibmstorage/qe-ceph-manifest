@@ -7,7 +7,6 @@ nightly:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/10/rhel10/21.1.1-1/
   images:
     alloy_image: preprod.icr.io/cp/ibm-ceph/alloy-rhel10:v9.10.0-28217
-    crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-27823
     ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-10-rhel10:v9.10.0-28214
     grafana_image: preprod.icr.io/cp/ibm-ceph/grafana-rhel10:v9.10.0-28211
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.10.0-28219
