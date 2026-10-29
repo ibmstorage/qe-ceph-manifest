@@ -88,8 +88,8 @@ respin:
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:v8.1-27068
     loki_image: cp.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: cp.icr.io/cp/ibm-ceph/nginx-124-rhel9:1-25.1726696143
-    nvmeof_cli_image: cp.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-27072
-    nvmeof_image: cp.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-27067
+    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel9:v8.1-27072
+    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel9:v8.1-27067
     oauth2_proxy_image: cp.icr.io/cp/ibm-ceph/oauth2-proxy-rhel9:v8.1-27066
     alertmanager_image: cp.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202609110318.p2.g683f4f2.assembly.stream.el8
     node_exporter_image: cp.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202609110318.p2.gaed837c.assembly.stream.el8
