@@ -9,21 +9,21 @@ nightly:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/9/rhel9/20.2.2-367/
   images:
     alloy_image: preprod.icr.io/cp/ibm-ceph/alloy-rhel10:v9.9.2-26729
-    crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-28749
-    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.9.2-28751
+    crimson_image: preprod.icr.io/cp/ibm-ceph/ceph-9-crimson-rhel10:v9.9.2-28953
+    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-9-rhel10:v9.9.2-28956
     grafana_image: preprod.icr.io/cp/ibm-ceph/grafana-rhel10:v9.9.2-26751
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.9.2-26730
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.9.2-26726
     loki_image: preprod.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: preprod.icr.io/cp/ibm-ceph/nginx-126-rhel10:10.2-1792772005
-    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-28833
-    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.9.2-28824
+    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.9.2-28957
+    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.9.2-28954
     oauth2_proxy_image: preprod.icr.io/cp/ibm-ceph/oauth2-proxy-rhel10:v9.9.2-26725
     alertmanager_image: preprod.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202610130332.p2.gfc7bfdb.assembly.stream.el8
     node_exporter_image: preprod.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202610130332.p2.g8003e3d.assembly.stream.el8
     prometheus_image: preprod.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202610130332.p2.gea362b0.assembly.stream.el8
-    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-28754
-    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-28750
+    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-28959
+    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-28955
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.9.2-26727
     promtail_image: preprod.icr.io/cp/ibm-ceph/promtail-rhel9:v8.1-25656
 stable:
