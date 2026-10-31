@@ -60,7 +60,7 @@ respin:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/redhat/7/rhel9/
   images:
     ceph-base: quay.io/rhceph-ci/rhceph:v7.1-c83ae7cb101d909b191aa2c35b7fa2d66abf4c4d
-    grafana_image: registry.stage.redhat.io/rhceph/grafana-rhel9:12.4.2-3
+    grafana_image: registry.redhat.io/rhceph/grafana-rhel9:12.4.2-3
     haproxy_image: registry.redhat.io/rhceph/rhceph-haproxy-rhel9:2.8.14-5
     keepalived_image: registry.redhat.io/rhceph/keepalived-rhel9:2.2.8-89
     snmp_gateway_image: registry.redhat.io/rhceph/snmp-notifier-rhel9:1.2.1-138
