@@ -7,18 +7,18 @@ nightly:
       rhel-10: http://repo.qe.ceph.lab/repos/ceph/testing/ibm/10/rhel10/21.1.1-5/
   images:
     alloy_image: preprod.icr.io/cp/ibm-ceph/alloy-rhel10:v9.10.0-28217
-    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-10-rhel10:v9.10.0-28919
+    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-10-rhel10:v9.10.0-29021
     grafana_image: preprod.icr.io/cp/ibm-ceph/grafana-rhel10:v9.10.0-28211
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel10:v9.10.0-28219
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel10:v9.10.0-28212
     loki_image: preprod.icr.io/cp/ibm-ceph/logging-loki-rhel8:v3.1.0-15
     nginx_image: preprod.icr.io/cp/ibm-ceph/nginx-126-rhel10:10.2-1790233748
-    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.10.0-28922
-    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.10.0-28920
+    nvmeof_cli_image: preprod.icr.io/cp/ibm-ceph/nvmeof-cli-rhel10:v9.10.0-29025
+    nvmeof_image: preprod.icr.io/cp/ibm-ceph/nvmeof-rhel10:v9.10.0-29023
     oauth2_proxy_image: preprod.icr.io/cp/ibm-ceph/oauth2-proxy-rhel10:v9.10.0-28216
     alertmanager_image: preprod.icr.io/cp/ibm-ceph/prometheus-alertmanager:golang-github-prometheus-alertmanager-container-v4.15.0-202609110318.p2.g683f4f2.assembly.stream.el8
     node_exporter_image: preprod.icr.io/cp/ibm-ceph/prometheus-node-exporter:golang-github-prometheus-node_exporter-container-v4.15.0-202609110318.p2.gaed837c.assembly.stream.el8
     prometheus_image: preprod.icr.io/cp/ibm-ceph/prometheus:golang-github-prometheus-prometheus-container-v4.15.0-202609110318.p2.gf5ef2c4.assembly.stream.el8
-    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.9.2-27828
-    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.9.2-27824
+    samba_metrics_image: preprod.icr.io/cp/ibm-ceph/samba-metrics-rhel10:v9.10.0-29024
+    samba_image: preprod.icr.io/cp/ibm-ceph/samba-server-rhel10:v9.10.0-29022
     snmp_gateway_image: preprod.icr.io/cp/ibm-ceph/snmp-notifier-rhel10:v9.10.0-28220
