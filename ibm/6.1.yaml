@@ -1,4 +1,3 @@
----
 rc:
   version: 17.2.6-277
   repositories:
@@ -87,7 +86,6 @@ z6:
       rhel-9: http://repo.qe.ceph.lab/repos/ceph/released/ibm/6/rhel9/
   images:
     ceph-base: cp.icr.io/cp/ibm-ceph/ceph-6-rhel9:6-24
-    # custom-images belong to z9, z6 data is unavailable
     haproxy_image: cp.icr.io/cp/ibm-ceph/haproxy-rhel9:2.4.22-50
     keepalived_image: cp.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-48
     grafana_image: cp.icr.io/cp/ibm-ceph/ceph-6-dashboard-rhel9:6-112
@@ -106,7 +104,7 @@ nightly:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202611032012.ci.0/IBM-CEPH-6.1-202611032012.ci.0-rhel8.repo
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202611032012.ci.0/IBM-CEPH-6.1-202611032012.ci.0-rhel9.repo
   images:
-    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-6-rhel9:v6.1-27685
+    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-6-rhel9:v6.1-29236
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel9:2.8.14-9
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-93
     grafana_image: preprod.icr.io/cp/ibm-ceph/ceph-6-dashboard-rhel9:6-113
