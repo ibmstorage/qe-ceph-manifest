@@ -1,14 +1,13 @@
----
 nightly:
-  version: 20.1.0-546.gfdf41e64
+  version: 20.2.5-1
   repositories:
     default:
       centos-9: https://3.chacra.ceph.com/repos/ceph/tentacle/fdf41e644f06063a49010e04a13e7d3423ea8997/centos/9/flavors/default/repo
+      rhel-9: https://1.chacra.ceph.com/repos/ceph/tentacle/f06ba86ae61c98c5cc151a3f76cf94161dfdba33/centos/9/flavors/default/repo
   images:
-    ceph-base: quay.ceph.io/ceph-ci/ceph:fdf41e644f06063a49010e04a13e7d3423ea8997
+    ceph-base: quay.ceph.io/ceph-ci/ceph:f06ba86ae61c98c5cc151a3f76cf94161dfdba33
     nvmeof: quay.io/ceph/nvmeof:1.1.0
     nvmeof-cli: quay.io/ceph/nvmeof-cli:1.1.0
-
 rocky10:
   version: 20.2.0-792
   repositories:
@@ -19,4 +18,3 @@ rocky10:
     ceph-base: quay.ceph.io/ceph-ci/ceph:wip-rocky10-branch-of-the-day-2026-03-04-1772624857-tentacle-rockylinux-10-x86_64-devel
     nvmeof: quay.io/ceph/nvmeof:latest
     nvmeof-cli: quay.io/ceph/nvmeof-cli:latest
-
