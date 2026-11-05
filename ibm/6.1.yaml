@@ -104,7 +104,7 @@ nightly:
       rhel-8: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202611032012.ci.0/IBM-CEPH-6.1-202611032012.ci.0-rhel8.repo
       rhel-9: https://public.dhe.ibm.com/ibmdl/export/pub/storage/ceph/testing/IBM-CEPH-6.1-202611032012.ci.0/IBM-CEPH-6.1-202611032012.ci.0-rhel9.repo
   images:
-    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-6-rhel9:v6.1-29236
+    ceph-base: preprod.icr.io/cp/ibm-ceph/ceph-6-rhel9:v6.1-29401
     haproxy_image: preprod.icr.io/cp/ibm-ceph/haproxy-rhel9:2.8.14-9
     keepalived_image: preprod.icr.io/cp/ibm-ceph/keepalived-rhel9:2.2.8-93
     grafana_image: preprod.icr.io/cp/ibm-ceph/ceph-6-dashboard-rhel9:6-113
