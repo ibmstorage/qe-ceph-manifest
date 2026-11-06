@@ -1,10 +1,11 @@
 nightly:
-  version: 22.0.0-457
+  version: 22.0.0-476
   repositories:
     default:
       centos-9: https://2.chacra.ceph.com/repos/ceph/main/c9ce5bf4e30f48e0faab541f7f1b46b8fe029e04/centos/9/flavors/default/repo
       rhel-9: https://1.chacra.ceph.com/repos/ceph/main/46873b8e7681b1ea428cfdb3fd04f9b30dc2d4c0/centos/9/flavors/default/repo
+      rocky-10: https://1.chacra.ceph.com/repos/ceph/main/e0928d27f3da72b58f136a18cf2203abb056799e/rocky/10/flavors/default/repo
   images:
-    ceph-base: quay.ceph.io/ceph-ci/ceph:46873b8e7681b1ea428cfdb3fd04f9b30dc2d4c0
+    ceph-base: quay.ceph.io/ceph-ci/ceph:e0928d27f3da72b58f136a18cf2203abb056799e
     nvmeof: quay.io/ceph/nvmeof:1.1.0
     nvmeof-cli: quay.io/ceph/nvmeof-cli:1.1.0
